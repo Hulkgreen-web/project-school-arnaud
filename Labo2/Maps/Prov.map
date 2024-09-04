@@ -1,0 +1,12 @@
+<img src="[Belgique-Provinces-1-fini] (importée)" width="1200" height="2030" border="0" usemap="#map" />
+
+<map name="map">
+<!-- #$-:Image map file created by GIMP Image Map plug-in -->
+<!-- #$-:GIMP Image Map plug-in by Maurits Rijk -->
+<!-- #$-:Please do not edit lines starting with "#$" -->
+<!-- #$VERSION:2.3 -->
+<!-- #$AUTHOR:aboui -->
+<area shape="poly" coords="228,422,436,431,596,502,527,602,544,751,483,741,489,615,351,586,320,516,247,506,221,450" alt="Hainaut info" href="http://fr.wikipedia.org/wiki/Province_de_Hainaut" />
+<area shape="poly" coords="591,492,703,453,810,580,747,692,686,822,674,692,652,660,606,730,555,746,542,653,543,616,600,582,599,507" alt="Namur info" href="http://fr.wikipedia.org/wiki/Province_de_Namur" />
+<area shape="poly" coords="827,559,997,625,917,792,704,806,720,717" alt="Luxembourg info" href="http://fr.wikipedia.org/wiki/Province_de_Luxembourg" />
+</map>

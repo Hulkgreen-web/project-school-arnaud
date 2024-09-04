@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Labo07</title>
+		<link rel="stylesheet" href="style.css">
+		<script src="traitements.js"></script>
+	</head>
+	
+	<body>
+		<form>
+		
+			<h2>Précisez les dimensions du mur</h2>
+			<label class = "infosMur">Longueur du mur</label><input type = "number"  max = "300" min = "0" name = "valLongMur" value = "0" ></input>cm<br>
+			<label class = "infosMur">Hauteur du mur</label><input type = "number" max = "200" min = "0" name = "hauteurMur" value = "0"></input>cm<br>
+			<label class = "infosMur">Epaisseur du joint <span id = "valJoint" class = "couleurRep"></span><span class = "couleurRep"> cm</span></label>
+			<label>Superficie (calculée): <span id = "superficieMur" class = "couleurRep"></span><span class = "couleurRep"> m²</span></label><br><br>
+			<input class = "buttonViderChamps" type="button" value="Vider les champs" onclick = "valLongMur.value = 0;
+			hauteurMur.value = 0;"></input>
+			<br>
+
+			<h2>Sélectionner ici les dimensions de la brique ou du bloc</h2>
+			<label>Type de brique : </label>
+			<!-- Utilisation de oncgange car pas de bouton disponible dans le formulaire pour effectuer les appel de fonction et jongler ave les valeurs -->
+			<!-- affciherElement permet de récupérer la valeur des longueurs,largeurs et hauteurs d'une options choisie sous forme de tab (grace a la fct split) -->
+			<select name="choixB" onchange = "var valChoisie = afficherElements(this.value);
+			document.getElementById('longueurBrique').innerHTML = valChoisie[0];
+			document.getElementById('largeurBrique').innerHTML = valChoisie[1];
+			document.getElementById('hauteurBrique').innerHTML = valChoisie[2];
+			var superficieMur = calculerSuperficieMur(valLongMur.value,hauteurMur.value);
+			document.getElementById('superficieMur').innerHTML = superficieMur;
+			var superficieFaceBrique = calculerSuperficieFaceBrique(valChoisie[0],valChoisie[2]);
+			document.getElementById('superficieFaceBrique').innerHTML = superficieFaceBrique;
+			var nbrBriques = nombre_briques(valLongMur.value,hauteurMur.value,valChoisie[0],valChoisie[2]);
+			document.getElementById('qtiBriques').innerHTML = nbrBriques;
+			var volumeMortier = calculerVolumeMortier(valChoisie[0],valChoisie[1],valChoisie[2],nbrBriques);
+			document.getElementById('qtiMortier').innerHTML = volumeMortier[0];
+			document.getElementById('valJoint').innerHTML = volumeMortier[1];
+			var valSable = sable(volumeMortier[0],qtiSableSac);
+			document.getElementById('nbrKgSable').innerHTML = valSable[0];
+			document.getElementById('nbrSacSable').innerHTML = valSable[1];
+			document.getElementById('poidsSacSable').innerHTML = qtiSableSac;
+			var valCiment = ciment(volumeMortier[0],qtiCimentSac);
+			document.getElementById('nbrKgCiment').innerHTML = valCiment[0];
+			document.getElementById('nbrKgCiment').innerHTML = valCiment[0];
+			document.getElementById('nbrSacCiment').innerHTML = valCiment[1];
+			document.getElementById('poidsSacCiment').innerHTML = qtiCimentSac;">
+				<optgroup label = "Blocs en béton"/>
+				<option value = "39X9X19">39X9X19</option>
+				<option value = "39X14X19">39X14X19</option>
+				<option value = "39X19X19">39X19X19</option>
+				
+				<optgroup label = "Brique en béton"/>
+				<option value = "29X9X14">29X9X14</option>
+				<option value ="29X14X14">29X14X14</option>
+				
+				<optgroup label = "Brique 'boeren'"/>
+				<option value = "18X8.5X6.5">18X8.5X6.5</option>
+				
+				<optgroup label = "Blocs Rhin"/>
+				<option value = "18X8.5X5">18X8.5X5</option>
+				
+			</select><br><br>
+			<label>Longueur : <span id = "longueurBrique"></span> cm</label><br>
+			<label>Largeur : <span id = "largeurBrique"></span> cm</label><br>
+			<label>Hauteur : <span id = "hauteurBrique"></span> cm</label><br>
+			<label class = "superficieBloc">Superficie de la face (longueur x hauteur) : <span id = "superficieFaceBrique" class = "couleurRep"></span></label>
+			<label><span class = "couleurRep"> m²</span></label>
+			<img id = "rectangle" src = "volume-parallelepipede-rectangle.png"/><br>
+			
+			
+			<h2>Matériel requis</h2>
+			<label><label class = "qti" >Quantité de briques : </label><span id = "qtiBriques" class = "couleurRep"></span></label><br>
+			<label class = "petitTxt">y compris 2% de chutes</label><br>
+			<label><label class = "qti">Quantité de mortier : </label><span id = "qtiMortier" class = "couleurRep"></span><span class = "couleurRep"> litres</span></label><br>
+			<label class = "petitTxt">y compris 10% de chutes</label><br>
+			
+			
+			<label class = "labelQti">Sable du Rhin :<span id = "nbrKgSable" class = "couleurRep"></span><span class = "couleurRep">Kg</span></label>
+			<label class = "ou">ou </label><label class = "couleurRep"><span id = "nbrSacSable"></span> sacs de <span id = "poidsSacSable"></span> Kg</label><br></label>
+			
+			
+			<label class = "labelQti">Ciment : <span id ="nbrKgCiment" class = "couleurRep"></span><span class = "couleurRep">Kg</span></label> 
+			<label class = "ou">ou </label><label class = "couleurRep"><span id = "nbrSacCiment"></span> sacs de <span id = "poidsSacCiment"></span> Kg</label>
+			
+			
+			
+		</form>
+	</body>
+</html>

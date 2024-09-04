@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Labo 3.2</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        function table(x, y) {
+            x = parseInt(x);
+            y = parseInt(y);
+            console.log(x, y);
+
+            var resultat = "<h2>Table trigonométrique de " + x + "° à " + y + "°</h2>";
+            resultat += "<table border='1'>";
+            resultat += "<tr><th>Degrés</th><th>Sinus</th><th>Cosinus</th><th>Tangente</th><th>Cotangente</th></tr>";
+            for (var i = x; i <= y; i++) {
+                var rad = i * Math.PI / 180; //Formule pour passer des radians aux degrés
+                var sinVal = Math.sin(rad).toFixed(4); 
+                var cosVal = Math.cos(rad).toFixed(4);
+                var tanVal = Math.tan(rad).toFixed(4);
+                var cotVal = (1 / tanVal).toFixed(4);
+                resultat += "<tr><td>" + i + "</td><td>" + sinVal + "</td><td>" + cosVal + "</td><td>" + tanVal + "</td><td>" + cotVal + "</td></tr>";
+            }
+            resultat += "</table>";
+            document.getElementById('zone_resultat').innerHTML = resultat; // Afficher le résultat dans la zone_resultat
+
+        }
+
+        
+    </script>
+</head>
+<body>
+    <form>
+        <p>Introduisez l'intervalle de valeur [x,y] pour lequel vous désirez calculer le tableau trigonométrique :</p>
+        <font color="#D46F4D">x:</font><input type="number" name="x">
+        <font color="#D46F4D">y:</font><input type="number" name="y">
+        <input type="button" value="Afficher" onclick="table(x.value,y.value)">
+    </form>
+
+    <div id="zone_resultat"></div>
+</body>
+</html>

@@ -1,0 +1,185 @@
+<html>
+<head>
+<meta charset="UTF-8"/>
+<script type="text/javascript" src="Tab_assoc.js"></script>
+<script >
+function start() {
+
+
+for(var i in entrees)
+{//ajout dynamique dans un tableau
+  TR = document.createElement("tr"); //creation d'une ligne
+  TD1  = document.createElement("td");//creation d'une cellule
+  TXT1 = document.createTextNode(i);// creation d'un noeud text 
+  TD1.appendChild(TXT1);//ajout du noeud text à la cellule
+  TR.appendChild(TD1);//ajout de la cellule à la ligne
+
+  TD2  = document.createElement("td");
+  TXT2 = document.createElement("input");
+  TXT2.value = entrees[i];
+  TXT2.setAttribute("name","prix");
+  TXT2.setAttribute("disabled","");
+  TD2.appendChild(TXT2);
+  TR.appendChild(TD2);
+
+  TD3 = document.createElement("td");
+  TXT3 = document.createElement("input");
+  TXT3.value = 0;
+  TXT3.setAttribute("name","qte");
+  TXT3.setAttribute("type","number");
+  TXT3.setAttribute("min","0");
+  TXT3.setAttribute("max","20");
+  TD3.appendChild(TXT3);
+  TR.appendChild(TD3);
+
+
+
+  document.getElementById('tableauEntree').appendChild(TR); //ajout de la ligne au tableau
+
+}
+    //ajout dans une div
+for(var i in salades) 
+{
+  TR = document.createElement("tr"); //creation d'une ligne
+  TD1  = document.createElement("td");//creation d'une cellule
+  TXT1 = document.createTextNode(i);// creation d'un noeud text 
+  TD1.appendChild(TXT1);//ajout du noeud text à la cellule
+  TR.appendChild(TD1);//ajout de la cellule à la ligne
+
+  TD2  = document.createElement("td");
+  TXT2 = document.createElement("input");
+  TXT2.value = salades[i];
+  TXT2.setAttribute("name","prix");
+  TXT2.setAttribute("disabled","");
+  TD2.appendChild(TXT2);
+  TR.appendChild(TD2);
+
+  TD3 = document.createElement("td");
+  TXT3 = document.createElement("input");
+  TXT3.value = 0;
+  TXT3.setAttribute("name","qte");
+  TXT3.setAttribute("type","number");
+  TXT3.setAttribute("min","0");
+  TXT3.setAttribute("max","20");
+  TD3.appendChild(TXT3);
+  TR.appendChild(TD3);
+  
+  document.getElementById('tableauSalade').appendChild(TR); //ajout de la ligne au tableau
+     
+}
+
+for(var i in plats) 
+{
+  TR = document.createElement("tr"); //creation d'une ligne
+  TD1  = document.createElement("td");//creation d'une cellule
+  TXT1 = document.createTextNode(i);// creation d'un noeud text 
+  TD1.appendChild(TXT1);//ajout du noeud text à la cellule
+  TR.appendChild(TD1);//ajout de la cellule à la ligne
+
+  TD2  = document.createElement("td");
+  TXT2 = document.createElement("input");
+  TXT2.value = plats[i];
+  TXT2.setAttribute("name","prix");
+  TXT2.setAttribute("disabled","");
+  TD2.appendChild(TXT2);
+  TR.appendChild(TD2);
+
+  TD3 = document.createElement("td");
+  TXT3 = document.createElement("input");
+  TXT3.value = 0;
+  TXT3.setAttribute("name","qte");
+  TXT3.setAttribute("type","number");
+  TXT3.setAttribute("min","0");
+  TXT3.setAttribute("max","20");
+  TD3.appendChild(TXT3);
+  TR.appendChild(TD3);
+  
+  document.getElementById('tableauPlat').appendChild(TR); //ajout de la ligne au tableau
+     
+}
+
+for(var i in garnitures) 
+{
+  TR = document.createElement("tr"); //creation d'une ligne
+  TD1  = document.createElement("td");//creation d'une cellule
+  TXT1 = document.createTextNode(i);// creation d'un noeud text 
+  TD1.appendChild(TXT1);//ajout du noeud text à la cellule
+  TR.appendChild(TD1);//ajout de la cellule à la ligne
+
+  TD2  = document.createElement("td");
+  TXT2 = document.createElement("input");
+  TXT2.value = garnitures[i];
+  TXT2.setAttribute("name","prix");
+  TXT2.setAttribute("disabled","");
+  TD2.appendChild(TXT2);
+  TR.appendChild(TD2);
+
+  TD3 = document.createElement("td");
+  TXT3 = document.createElement("input");
+  TXT3.value = 0;
+  TXT3.setAttribute("name","qte");
+  TXT3.setAttribute("type","number");
+  TXT3.setAttribute("min","0");
+  TXT3.setAttribute("max","20");
+  TD3.appendChild(TXT3);
+  TR.appendChild(TD3);
+  
+  document.getElementById('tableauGarniture').appendChild(TR); //ajout de la ligne au tableau
+     
+}
+
+for(var i in desserts) 
+{
+  TR = document.createElement("tr"); //creation d'une ligne
+  TD1  = document.createElement("td");//creation d'une cellule
+  TXT1 = document.createTextNode(i);// creation d'un noeud text 
+  TD1.appendChild(TXT1);//ajout du noeud text à la cellule
+  TR.appendChild(TD1);//ajout de la cellule à la ligne
+
+  TD2  = document.createElement("td");
+  TXT2 = document.createElement("input");
+  TXT2.value = desserts[i];
+  TXT2.setAttribute("name","prix");
+  TXT2.setAttribute("disabled","");
+  TD2.appendChild(TXT2);
+  TR.appendChild(TD2);
+
+  TD3 = document.createElement("td");
+  TXT3 = document.createElement("input");
+  TXT3.value = 0;
+  TXT3.setAttribute("name","qte");
+  TXT3.setAttribute("type","number");
+  TXT3.setAttribute("min","0");
+  TXT3.setAttribute("max","20");
+  TD3.appendChild(TXT3);
+  TR.appendChild(TD3);
+  
+  document.getElementById('tableauDessert').appendChild(TR); //ajout de la ligne au tableau
+     
+}
+}
+</script>
+</head>
+<body onload="start()">  <!-- onload permet de lancer un script après chargement du body -->
+
+<div>
+<form>
+<label>Nom: </label><input type="text"> <label>Adresse: </label><input type="text"> <label>N° de téléphone: </label><input type="text"> <br> <br>
+
+<label class="Titres">Les entrées</label> <br> <br>
+<table  id="tableauEntree" border="1"></table><br>
+<label class="Titres">Les salades</label> <br> <br>
+<table id="tableauSalade" border="1"></table> <br>
+<label class="Titres">Les plats</label> <br> <br>
+<table id="tableauPlat" border="1"></table> <br>
+<label class="Titres">Les garnitures</label> <br> <br>
+<table id="tableauGarniture" border="1"></table> <br>
+<label class="Titres">Les desserts</label> <br> <br>
+<table id="tableauDessert" border="1"></table> <br>
+<input type="button" value="Confirmer" onclick="var resultat = calculerPrix(qte,prix);confirm('La valeur de la commande est de '+ resultat + '€');document.getElementById('reponse2').innerHTML = resultat + '€';"> <br> <br>
+<span id="reponse1">Total de votre commande: </span> <span id="reponse2"></span>
+</form></div>
+
+
+</body>
+</html>

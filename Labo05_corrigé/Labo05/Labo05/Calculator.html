@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculator</title>
+		
+	<!-- Liens avec les fichiers CSS et JS -->
+	<script type="text/javascript" src="Calculator.js"></script>
+	<link rel="stylesheet" href="Calculator.css"/>	
+	
+</head>
+
+<body>
+	<!-- Cr�ation du contenu du Formulaire qui va permettre d'encoder les informations -->
+	<form> 
+	<h2>Calcul de la puissance du radiateur destiné  une pi�ce d'habitation</h2>
+			<!-- Infos de L x l x h -->
+			<fieldset>  <!-- fieldset et legend permettent de structurer le formulaire-->
+			<legend>Encodage : L x l x h (Point comme s�parateur d�cimal)</legend>
+			<label class="dim">Longueur:</label><input type="number" step="0.1" min="0" name="longueurE" /> <br/> <!-- le type number va emp�cher d'encoder des lettres et min des valeurs n�gatives-->
+			<label class="dim">Largeur:</label><input type="text" name="largeurE" /> <br/>						  <!-- L'id�al est de mettre  de type number. Ainsi l'on voit la diff�rence d'encodage avec Longueur -->	
+			<label class="dim">Hauteur:</label><input type="text" name="hauteurE" /> <br/>
+			Nombre de d�cimal (Entre 0 et 3):<input type="number" value="0" min="0" max="3" width="5" name="nbDecAcc" /> <br/>
+			<br/><br/>
+			</fieldset>
+			
+		    <fieldset><legend>Informations suppl�mentaires</legend>
+			<!-- Cr�ation de la liste d�roulante pour les diff�rentes temp�ratures -->
+			<select name="temperatureE">
+				<option value="60">18�C</option>		<!--value contient la valeur correspondant au choix, ici la valeur 60 correspond au choix 18�C-->
+				<option value="70">20�C</option>		<!--value contient la valeur correspondant au choix, ici la valeur 70 correspond au choix 20�C-->
+				<option value="80">22�C</option>		<!--value contient la valeur correspondant au choix, ici la valeur 80 correspond au choix 22�C-->
+			</select>
+		
+			<!-- Cr�ation de la case � cocher pour PLAFOND ISOLE -->
+			<input id="plaf" type="checkbox" name="CheckPlafond"/><label for="plaf">Plafond isol�</label><br /> <!-- label + for permet d'avoir une �tiquette li�e � une autre balise, ici li�e � l'input dont l'id=plaf (checkbox). De cette fa�on, clicquer sur la case � cocher ou sur le label revient � la m�me chose-->
+			
+			<!--Si on veut utiliser input type radio, d�commentez ce bloc, le name (inputRadioMurs) doit �tre identique pour tous les boutons afin que les boutons soient exclusifs entre eux; this represente l'�l�m�nt courant c�d, dans ce cas, l'objet input radio.  A la ligne 46, d�commentez l'instruction /*inputRadioMurs[this.value].checked=true*/ qui permet de synchroniser la valeur des boutons radio avec l'input type "range"
+			<u>Murs en contact avec l'ext�rieur</u><br /><br />
+			<input type="radio" name="inputRadioMurs" value="0" checked onchange="test_bouton_radio(this)">0</input>
+			<input type="radio" name="inputRadioMurs" value="1" onchange="test_bouton_radio(this)">1</input>
+			<input type="radio" name="inputRadioMurs" value="2" onchange="test_bouton_radio(this)">2</input>
+			<input type="radio" name="inputRadioMurs" value="3" onchange="test_bouton_radio(this)">3</input>
+			<input type="radio" name="inputRadioMurs"value="4" onchange="test_bouton_radio(this)">4</input><br/>
+			-->
+		
+			<!-- Type RANGE qui retourne chiffre 	-->
+			<!-- Murs en contact avec ext�rieur -->
+			<u>Murs en contact avec l'ext�rieur</u><br /><br />
+			<input type="range" min="0" max="4" step="1" value="0" oninput="afficherMurs();/*inputRadioMurs[this.value].checked=true*/; " name="inputMurs" id="inputMurs"/>
+			<span id="murs">0</span><br/>
+			
+			<!-- Nombre de fen�tres / portes non isol�es -->
+			<u>Nombre de fen�tres/ portes non isol�es dans la pi�ce</u><br /><br/>
+			<input type="range" min="0" max="12" step="1" value="0" oninput="afficherNonIso();" name="inputNonIso" id="inputNonIso"/>
+			<span id="nonIso">0</span><br/>
+		
+			<!-- Nombre de fen�tres / portes isol�es -->
+			<u>Nombre de fen�tres/ portes <b>isol�es</b> dans la pi�ce</u><br /><br/>
+			<input type="range" min="0" max="12" step="1" value="0" oninput="afficherIso();" name="inputIso" id="inputIso"/>
+			<span id="iso">0</span><br/>
+		
+			<!-- Bouton lancant le calcul : propri�t� VALUE � utiliser pour tous, SAUF pour CheckPlafond : CHECKED -->
+			<input type="button" value="Calculer la puissance" onclick= "var reponse=
+			CalculerPuissance(longueurE.value, largeurE.value,hauteurE.value, nbDecAcc.value,
+			temperatureE.value,CheckPlafond.checked, 
+			inputMurs.value,inputNonIso.value,inputIso.value);
+			document.getElementById('resultat').innerHTML='<h2>La puissance n�cessaire est �gale � : '+ reponse +' Watts</h2>'">
+			</input><br/>
+			</fieldset>
+			
+			<div id="resultat">  
+			<!--contiendra la r�ponse, peut se trouver dans le formulaire ou en dehors en fonction de l'effet recherch�-->
+			</div>	
+	
+	</form> 	
+	
+</body>
+</html>

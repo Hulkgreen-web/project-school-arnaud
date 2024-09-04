@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="calculs.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <form action="">
+      <h2 id="Titre">Calcul de votre taxe ONSS</h2>
+      <label class="Lab">Entrez votre salaire brut: </label
+      ><input type="number" min="0" name="W" value="0" /><br />
+      <label class="Lab">Choisissez votre statut: </label>Employé<input
+        type="radio"
+        name="choixStat"
+        value="Employé"
+      />Ouvrier <input type="radio" name="choixStat" value="Ouvrier" /><br />
+      <label class="Lab">Type de contrat: </label>Temps plein
+      <input type="radio" name="choixContrat" value="Plein" />Temps partiel
+      <input type="radio" name="choixContrat" value="Partiel" /><br />
+      <label class="Lab"
+        >Nombre de jours prestés (en cas de temps plein): </label
+      ><input type="number" name="nbJours" /><br />
+      <label class="Lab"
+        >Nombre de jours maximum de travail (en cas de temps plein): </label
+      ><input type="number" name="nbJoursMax" max="31" /><br />
+      <label class="Lab"
+        >Nombre d'heures prestées (en cas de temps partiel): </label
+      ><input type="number" name="nbHeures" /><br />
+      <label class="Lab"
+        >Nombre d'heures maximum (en cas de temps partiel): </label
+      ><input type="number" name="nbHeuresMax" /><br />
+      <input
+        type="button"
+        class="btn-cool"
+        name="calculCotisation"
+        value="Calculer cotisation sans réduction"
+        onclick="var cotisationSansRed = calculC(W.value);
+        document.getElementById('reponseC').innerHTML = 'Montant de la cotisation sans réduction: ' + cotisationSansRed + '€';"
+      />
+      <input
+        type="button"
+        class="btn-cool"
+        name="calculSalaireRefEtRed"
+        value="Calculer les informations relatives à votre revenu ONSS"
+        onclick="var cotisationSansRed = calculC(W.value);var salaireRef = calculS(W.value,choixContrat.value,nbJours.value,nbJoursMax.value,nbHeures.value,nbHeuresMax.value);
+        var reduction = calculR(salaireRef,choixStat.value);var reductionFinale = calculP(choixContrat.value,nbJours.value,nbJoursMax.value,nbHeures.value,nbHeuresMax.value,reduction,cotisationSansRed);
+        document.getElementById('reponseC').innerHTML = 'Montant de la cotisation sans réduction: ' + cotisationSansRed + '€';
+        document.getElementById('reponseS').innerHTML ='Salaire mensuel de référence: ' + salaireRef + '€';
+        document.getElementById('reponseR').innerHTML = 'Montant de base de la reduction: ' + reduction + '€';
+        document.getElementById('reponseP').innerHTML = 'Montant final de la réduction: ' + reductionFinale[0] + '€';
+        document.getElementById('reponseF').innerHTML = 'Montant de la cotisation après comptabilisation des facteurs: ' + reductionFinale[1] + '€'"
+      />
+      <br />
+      <span id="reponseC" class="reponses"></span><br />
+      <span id="reponseS" class="reponses"></span> <br />
+      <span id="reponseR" class="reponses"></span> <br />
+      <span id="reponseP" class="reponses"></span> <br />
+      <span id="reponseF" class="reponses"></span>
+    </form>
+  </body>
+</html>

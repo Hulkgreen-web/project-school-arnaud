@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Les balises concernant la police de caractère</title>
+</head>
+<body>
+    <font size="5"><p>Titre : Les balises concernant la police de caractère</p>
+    <font size="7"><b>RQ: on passe à la ligne avec la <br>
+        balise < BR > <br>
+        Font définie à 7 avant la
+        ligne précédente. Ne pas tenir <br>
+        compte des passages de lignes <br>
+        sauf si c’est spécifié. </b><br>
+    <font size="5" color="#E67E22"><p>Essai d'une couleur quelconque exprimée en hexadécimal ,
+        (cf ;le site <a href="">http://www.toutimages.com/codes_caracteres.htm</a>
+        pour choisir sa couleur),<font size="5" color="red">mais on peut faire plus simple en
+            utilisant le nom en anglais d'une couleur standard (par
+            ex:"red"),<font size="5" color="green">ou plus compliqué si on exprime en décimal le code
+                RVB issu de la palette de couleur d'un logiciel comme paint.
+                (outils modifier couleur). Par exemple (99,123,48)</p>
+    <font size="5" color="black"><p>On peut aussi travailler sur la police de caractère :</p>
+    <font face="Arial Narrow"><p>Sur le type de police : "Arial Narrow"</font><br>
+    <b>en caractère gras (Bold en anglais)</b><br>
+    <i>en caractère italique</i><br>
+    <ins>texte souligné</ins><br>
+    E = M C <sup>2</sup>.On peut également avoir des indices : X <sub>y</sub><br>
+    On peut représenter un caractère par son code ASCII : A ou <br>
+    par une entité par exemple : â ou encore ß (voir tableau excel <br>
+    en annexe ou le site « toutimages.com »  </p>
+    <p>on peut <strike>barrer</strike><br>
+    <kbd>et une balise particulière permet le type machine à <br>
+    écrire </kbd><br>
+    <big>On peut augmenter la taille par une simple <br>
+    balise</big><br>
+    <small>ou la rendre plus petite</small></p>
+    <p><b>On peut <ins>combiner</ins> les balises par. <sub>CQFD</sub></b></p>
+    <p>L'insertion d'une ligne horizontale avec la balise &lt; HR &gt; <br>
+    <font size="7">Les balises concernant la mise <br>
+    en forme du texte</font></p>
+    <p></p>
+    <p>Le saut de ligne <br>
+        Voilà, c'est fait <br>
+        Le retour chariot + saut de ligne</p>
+    <p>L'indentation qui est appliquée à gauche et à droite; vous
+        pouvez le remarquer car ici, nous n'utiliserons pas de
+        retour à la ligne BR. On s'aperçoit que le texte passe à la
+        ligne avec un retrait à droite également. L'indentation est
+        d'application tant que l'on n'a pas indiqué la balise de fin
+        du bloc d'indentation <br>
+        On revient ainsi à la marge gauche <br>
+        La définition d'un paragraphe </p>
+    <p align="center">Nous sommes dans le paragraphe suivant que nous avons <br> 
+        définicomme étant centré <br>
+        Ca peut être pratique. <br>
+        N'est-ce pas ? </p>
+    <font color="green"><p align="right"><b>On peut également aligner à droite,</b></p></font>
+    <font color="blue"><p align="left"><b>Ou à gauche.</b></p></font>
+    <p align="justify"><center>Le texte peut également être justifié comme dans un 
+traitement de texte, ce qui nécessite plusieurs lignes de 
+blabla pour que vous vous en aperceviez par vous même.
+Pour "faire plus court", on va appliquer une indentation à
+gauche et à droite. Si vous n'obtenez pas le bon résultat
+inversez l'imbrication des balises</center></p>
+        <p><b>Les lignes horizontales HR incluent un passage à la ligne et <br>
+            peuvent être paramétrées</b></p>
+        <hr size="5" color="black">
+        <p>La ligne ci-dessus constitue un trait d'épaisseur 5 sans <br>
+            ombrage pour mieux apprécier l'épaisseur </p>
+        <hr size="10" width="75%" color="black">
+        <p>La ligne ci-dessus constitue un trait de largeur égale à 75% de <br>
+            la page et d'épaisseur 10 </p>
+        <hr width="50%" size="5" align="left" color="black">
+        <p>La ligne ci-dessus constitue un trait de largeur 50%, <br>
+            d'épaisseur 5, sans ombrage et aligné à gauche <br>
+            <b>Il y a moyen de délimiter un bloc dans lequel la balise BR <br>
+            est superflue et la police non proportionnelle (aligner les <br>
+            caractères et leur code ascii dans le code source et utiliser <br>
+            la balise adéquate)</b></p>
+        <pre>A  B  C  D  E
+67 68 69 70 71 </pre>
+        <p>Lors d'un encodage ordinaire, on aurait eu ceci <br>
+            A B C D <br>
+            65 66 67 68 69 70 <br>
+            Les balises de titres</p>
+        <p><h1>Titre1</h1>
+            <h2>Titre2</h2>
+            <h3>Titre3</h3>
+            <h4>Titre4</h4>
+            <h5>Titre5</h5>
+            <h6>Titre6</h6></p>
+        <p>Les listes numérotées <br>
+            <b>Mode d'emploi de ce labo:</b> </p>
+        <ol type="I" start="0">
+            <li>Observer le document fini</li>
+            <li>Rechercher (plus ou moins séquentiellement) dans les <br>
+                feuilles le point de théorie correspondant </li>
+            <li>Appliquer la théorie</li>
+            <li>Vérifier le résultat</li>
+            <li>Ajuster si nécessaire </li>
+        </ol>
+        <p>Les listes non numérotées (à puces) <br>
+            <b>Département économique</b></p>
+        <ul type="circle">
+            <li>informatique de gestion </li>
+            <li>comptabilité </li>
+            <li>assistant manager</li>
+        </ul>
+        <ul>On peut également obtenir un retrait uniquement à <br>
+            gauche en utilisant seule, la balise < Ul > ce qui peut se <br>
+            vérifier facilement si on continue à écrire un peu <br>
+            n'importe quoi. Voilà qui devrait suffire à vous <br>
+            convaincre. N'est-ce pas ? </ul>
+        <p><i>Enfin, des images... n'oubliez pas les paramètres Alt et Title</i></p>
+        <a href="https://www.helha.be/etude/economique/informatique-de-gestion/mons/grille-horaire-43/" target="_blank"><img src="helha.png" alt="Haute Ecole Louvain en Hainaut" title="HELHA"></a>
+        <hr>
+        <footer><font size="2"><p align = "right">@CopyRight: Bouillon Arnaud</p></font></footer>
+</body>
+</html>

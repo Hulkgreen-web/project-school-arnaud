@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Labo 3.2</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        function table(x, y) {
+            x = parseInt(x);
+            y = parseInt(y);
+            console.log(x, y);
+
+            var resultat = "<h2>Table trigonométrique de " + x + "° à " + y + "°</h2>";
+            resultat += "<table border='1'>";
+            resultat += "<tr><th>Degrés</th><th>Sinus</th><th>Cosinus</th><th>Tangente</th><th>Cotangente</th></tr>";
+            for (var i = x; i <= y; i++) {
+                var rad = i * Math.PI / 180;
+                var sinVal = Math.sin(rad).toFixed(4);
+                var cosVal = Math.cos(rad).toFixed(4);
+                var tanVal = Math.tan(rad).toFixed(4);
+                var cotVal = (1 / tanVal).toFixed(4);
+                resultat += "<tr><td>" + i + "</td><td>" + sinVal + "</td><td>" + cosVal + "</td><td>" + tanVal + "</td><td>" + cotVal + "</td></tr>";
+            }
+            resultat += "</table>";
+            document.getElementById('zone_resultat').innerHTML = resultat; // Afficher le résultat dans la zone_resultat
+
+        }
+        
+        function graph(x, y) {
+            x = parseInt(x);
+            y = parseInt(y);
+            console.log(x, y);
+
+            var canvas = document.getElementById('myCanvas');
+            var ctx = canvas.getContext('2d');
+
+            // Effacer le contenu précédent
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+            // Définir les dimensions du graphique
+            var graphWidth = canvas.width - 100;
+            var graphHeight = canvas.height - 100;
+            var offsetX = 50;
+            var offsetY = canvas.height - 50;
+
+            // Dessiner les axes
+            ctx.beginPath();
+            ctx.moveTo(offsetX, offsetY);
+            ctx.lineTo(offsetX + graphWidth, offsetY);
+            ctx.moveTo(offsetX, offsetY);
+            ctx.lineTo(offsetX, offsetY - graphHeight);
+            ctx.stroke();
+
+            // Dessiner les graduations sur l'axe des x (degrés)
+            ctx.font = '12px Arial';
+            ctx.textAlign = 'center';
+            ctx.textBaseline = 'top';
+            for (var i = x; i <= y; i += 10) {
+                var xPos = offsetX + (i - x) / (y - x) * graphWidth;
+                ctx.moveTo(xPos, offsetY);
+                ctx.lineTo(xPos, offsetY + 5);
+                ctx.fillText(i.toString(), xPos, offsetY + 5);
+            }
+
+            // Dessiner les graduations sur l'axe des y (valeurs)
+            ctx.textAlign = 'right';
+            ctx.textBaseline = 'middle';
+            for (var i = 0; i <= 1; i += 0.1) {
+                var yPos = offsetY - i * graphHeight;
+                ctx.moveTo(offsetX - 5, yPos);
+                ctx.lineTo(offsetX, yPos);
+                ctx.fillText(i.toFixed(1), offsetX - 10, yPos);
+            }
+            ctx.stroke();
+
+            // Dessiner les étiquettes des axes
+            ctx.font = '12px Arial';
+            ctx.fillText('Degrés', offsetX + graphWidth / 2, offsetY + 30);
+            ctx.fillText('Valeurs', offsetX - 40, offsetY - graphHeight / 2);
+
+            // Dessiner les courbes pour Sinus, Cosinus, Tangente et Cotangente
+            var step = graphWidth / (y - x);
+            var angle = x;
+            ctx.beginPath();
+            ctx.strokeStyle = 'red'; // Sinus en rouge
+            ctx.moveTo(offsetX, offsetY - Math.sin(x * Math.PI / 180) * graphHeight);
+            for (var i = 0; i <= y - x; i++) {
+                var rad = angle * Math.PI / 180;
+                var sinVal = Math.sin(rad).toFixed(4);
+                ctx.lineTo(offsetX + i * step, offsetY - sinVal * graphHeight);
+                angle++;
+            }
+            ctx.stroke();
+
+            angle = x;
+            ctx.beginPath();
+            ctx.strokeStyle = 'blue'; // Cosinus en bleu
+            ctx.moveTo(offsetX, offsetY - Math.cos(x * Math.PI / 180) * graphHeight);
+            for (var i = 0; i <= y - x; i++) {
+                var rad = angle * Math.PI / 180;
+                var cosVal = Math.cos(rad).toFixed(4);
+                ctx.lineTo(offsetX + i * step, offsetY - cosVal * graphHeight);
+                angle++;
+            }
+            ctx.stroke();
+
+            angle = x;
+            ctx.beginPath();
+            ctx.strokeStyle = 'green'; // Tangente en vert
+            ctx.moveTo(offsetX, offsetY - Math.tan(x * Math.PI / 180) * graphHeight);
+            for (var i = 0; i <= y - x; i++) {
+                var rad = angle * Math.PI / 180;
+                var tanVal = Math.tan(rad).toFixed(4);
+                ctx.lineTo(offsetX + i * step, offsetY - tanVal * graphHeight);
+                angle++;
+            }
+            ctx.stroke();
+
+            angle = x;
+            ctx.beginPath();
+            ctx.strokeStyle = 'orange'; // Cotangente en orange
+            ctx.moveTo(offsetX, offsetY - (1 / Math.tan(x * Math.PI / 180)) * graphHeight);
+            for (var i = 0; i <= y - x; i++) {
+                var rad = angle * Math.PI / 180;
+                var cotVal = (1 / Math.tan(rad)).toFixed(4);
+                ctx.lineTo(offsetX + i * step, offsetY - cotVal * graphHeight);
+                angle++;
+            }
+            ctx.stroke();
+        }
+    </script>
+</head>
+<body>
+    <form>
+        <p>Introduisez l'intervalle de valeur [x,y] pour lequel vous désirez calculer le tableau trigonométrique :</p>
+        <font color="#D46F4D">x:</font><input type="number" name="x">
+        <font color="#D46F4D">y:</font><input type="number" name="y">
+        <input type="button" value="Afficher" onclick="table(x.value,y.value)">
+        <input type="button" id="graphique" value="Afficher graphique" onclick="graph(x.value,y.value)">
+    </form>
+
+    <div id="zone_resultat"></div>
+    <center><canvas id="myCanvas" width="500" height="500"></canvas></center>
+</body>
+</html>

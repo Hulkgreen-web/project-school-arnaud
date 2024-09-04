@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Allocations familiales Wallonie</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="calculs.js"></script>
+</head>
+<body>
+    <h1>Calcul des allocations familiales en Wallonie</h1>
+    <form>
+        <fieldset class="champs">
+            <legend class="titres">Enfant</legend>
+            <select name="choixAge" id="choixAge">
+                <option value="188.95">De 0 à 17 ans</option>
+                <option value="201.14">De 18 à 24 ans</option>
+            </select> <br>
+            <input type="radio" id="single" name="choixParents" value="1parent"> <label for="single">Orphelin d'un parent</label> 
+            <input type="radio" id="double" name="choixParents" value="0parent"> <label for="double">Orphelin des 2 parents</label>
+            <input type="radio" id="nothing" name="choixParents" value="2parent"> <label for="nothing">Pas orphelin</label>
+        </fieldset>
+        <fieldset class="champs">
+            <legend class="titres">Situation sociale</legend>
+            <label>Revenus annuels(€):</label> <input type="number" min="0" value="0" name="revenusAn"> <input type="checkbox" name="isHandicap" id="hand"> <label for="hand">Un des parents présente un handicap</label><br>
+            <input type="checkbox" name="invalide" id="inv"> <label for="inv">Invalidité ou incapacité de travail</label><br>
+            <input type="checkbox" name="monoparent" id="mono"> <label for="mono">Famille monoparentale</label><br>
+            <input type="checkbox" name="nombreuse" id="nomb"> <label for="nomb">Famille nombreuse (>=3enfants)</label>
+        </fieldset>
+        <input type="button" value="Calculer" id="btn" onclick="var base = calculerBase(choixAge.value);
+        document.getElementById('montantBase').innerHTML = base;
+        var supplement = calculerSupplement1(choixParents.value,choixAge.value);
+        var supSalaire = calculerSupplement2(revenusAn.value,isHandicap.checked);
+        var supFamille = calculerSupplement3(revenusAn.value,invalide.checked,monoparent.checked,nombreuse.checked);
+        var supTotal = calculerSupplementTot(supplement,supSalaire,supFamille);
+        document.getElementById('montantSup').innerHTML = supTotal;
+        var totalAlloc = calculerTotal(supTotal,base);
+        document.getElementById('montantTot').innerHTML = totalAlloc;
+        var donnee = afficherRecap(choixAge.value,choixParents.value,revenusAn.value,isHandicap.checked,invalide.checked,monoparent.checked,nombreuse.checked);
+        document.getElementById('repAge').innerHTML = donnee[0];
+        document.getElementById('is1Parent').innerHTML = donnee[1];
+        document.getElementById('is2parents').innerHTML = donnee[2];
+        document.getElementById('revenu').innerHTML = donnee[3];
+        document.getElementById('handi').innerHTML = donnee[4];
+        document.getElementById('inva').innerHTML = donnee[5];
+        document.getElementById('monopar').innerHTML = donnee[6];
+        document.getElementById('nombreux').innerHTML = donnee[7];
+        ">
+    </form>
+
+    <div id="resultat">
+        <h2>Résultats:</h2><br>
+        <table>
+            <tr>
+                <th>age</th><th>orphelin 1 parent</th><th>orphelin 2 parents</th><th>revenu €</th><th>handicap</th><th>invalide</th><th>monoparentale</th><th>famiNombreuse</th><th>Base</th><th>Supplément</th><th>Total</th>
+            </tr>
+            <tr>
+                <td><span id="repAge"></span></td><td><span id="is1Parent"></span></td><td><span id="is2parents"></span></td><td><span id="revenu"></span></td><td><span id="handi"></span></td><td><span id="inva"></span></td>
+                <td><span id="monopar"></span></td><td><span id="nombreux"></span></td><td><span id="montantBase"></span></td><td><span id="montantSup"></span></td><td><span id="montantTot"></span></td>
+            </tr>
+        </table>
+    </div>
+
+</body>
+</html>

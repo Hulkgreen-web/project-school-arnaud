@@ -1,0 +1,21 @@
+body
+{ 	/* bleu fonc� d�grad� vers Cyan : lineal-gradient aussi possible */
+	background-color: blue;
+}	
+						
+
+form 
+{
+	 background-color:#FBFBFB;
+	 padding:10px;
+	 margin-top: 10%;
+	 margin-left: 25%; 
+	 margin-right:25%; 
+	 width: 50%;
+}
+
+.dim
+{
+	display:inline-block;  /* sert à aligner les inputs number */
+	min-width:80px;
+}

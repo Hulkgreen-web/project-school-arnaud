@@ -1,0 +1,84 @@
+body {
+	background-color: yellow;
+	width:80%; /*pour ne pas occuper toute la largeur de la page */
+	margin:auto; /*combiné à la ligne précédente, cela crée une marge à gauche et à droite*/
+	border:solid; /*simplement pour visualiser le body*/
+	min-height:100vh; /*height ajouté pour préciser la hauteur du body = hauteur du viewport (taille écran) - min-heigth permet un height plus grand si contenu plus grand que viewport */
+	}
+
+/*ajouté main*/
+main {
+padding-top:5%;
+border-color:grey;
+border-style:dotted;
+height:100%;
+/* A l'intérieur de main, la somme des largeurs (width, margin, padding + épaisseur des bordures ne doit pas dépasser 100% sinon décalage en dessous de certains éléménts)*/
+}
+#entete {
+	text-align: center;
+	margin-top: 1%;
+	margin-right: 5%;
+	margin-left: 5%;
+	background-color : white;
+	height: 5%;
+	}
+	
+	
+#cours {
+		margin-left: 5%;
+		background-color:red;
+		height: 90%;
+		float: left;
+		width:20%;
+		font-size:1em;
+		}
+
+ul {
+  list-style-type: square;
+}
+
+#corona
+{
+border-style:dashed;
+}
+
+#contenu1 { 
+			float: left;
+			
+			margin-left:10%;margin-right:10%; 
+			width:30%;
+			font-size: 0.85rem;
+			padding-top  :5%; /*ajouté*/
+}
+
+#contenu1 img {
+display: block;
+margin-left: auto;
+margin-right: auto;
+width:90%;
+}
+	
+#image 	{
+
+		float:right;
+		margin-right:5%;
+		width:23%;
+		margin-left:auto;margin-right:auto;
+		border-width:2%;  
+		border-style:inset;
+		
+}
+.img_love
+{
+	width:90%;
+	margin-bottom:5%;margin-top:5%;
+	margin-left:5%;margin-right:auto;
+}	
+#pied {
+		clear: both;
+		text-align: center; 
+		margin-bottom:3%;
+		height: 5%;
+		
+	}
+

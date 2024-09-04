@@ -1,0 +1,64 @@
+table {
+    table-layout: fixed;
+    border: 3px solid blue;
+    border-collapse: collapse;
+    margin-bottom: 5%;
+    margin: auto;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+td {
+    font-size: 1em;
+    border: 1px solid;
+    text-align: center;
+}
+
+form {
+    background-color: #BED3C3;
+    border: 2px solid blue;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#resultat{
+    background-color: #BED3C3;
+    border: 2px solid blue;
+    margin-top:1%;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2{
+    margin-left: 45%;
+}
+
+#btn {
+    margin-top: 1%;
+    margin-left: 45%;
+    margin-bottom: 1%;
+}
+
+h1{
+    margin-left: 35%;
+}
+
+th {
+    font-size: 1em;
+    border: 1px solid;
+    text-align: center;
+}
+
+.titres {
+    color: aqua;
+    font-size: xx-large;
+}
+
+.champs {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1%;
+}

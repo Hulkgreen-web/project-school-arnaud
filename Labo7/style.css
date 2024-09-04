@@ -1,0 +1,55 @@
+form{
+	background-color : lightgray;
+}
+h2{
+	color : blue;
+}
+.buttonViderChamps{
+	color : blue;
+	display : inline-block;
+	margin-left : 38%;
+}
+.petitTxt{
+	font-size : 80%;
+}
+.infosMur{
+	display : inline-block;
+	width : 12%;
+}
+.buttonViderChamps{
+	display : inline-block;
+	
+}
+select{
+	display : inline-block;
+	margin-left : 5%;
+	
+}
+.superficieBloc{
+	display : inline-block;
+	margin-left : 12%;
+}
+.qti{
+	display : inline-block;
+	width : 12%;
+}
+.couleurRep{
+	color : blue;
+}
+.labelQti{
+	display : inline-block;
+	width : 12%;
+}
+img{
+	/*display : inline-block;*/
+	margin-right: 30%;
+	margin-top : -5%;
+	/* Dabord il faut dÃ©finir la bordure cad qu'il faut indiquer qu'elle existe avant de pouvoir jongler avec ses couleurs,dimensions,... */
+	border : solid;
+	border-width : 2px;
+	float : right;
+}
+.ou{
+	display : inline-block;
+	width : 2%;
+}
