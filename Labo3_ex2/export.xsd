@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+       <xs:element name="societes_stages">
+              <xs:complexType>
+                     <xs:sequence>
+                            <xs:element name="Etudiant" maxOccurs="unbounded">
+                                   <xs:complexType>
+                                          <xs:sequence>
+                                                 <xs:element name="section" type="xs:string"></xs:element>
+                                                 <xs:element name="classe" type="xs:string"></xs:element>
+                                                 <xs:element name="Societe">
+                                                        <xs:complexType>
+                                                               <xs:sequence>
+                                                                      <xs:element name="nom_societe" type="xs:string"></xs:element>
+                                                                      <xs:element name="objet_social" type="xs:string"></xs:element>
+                                                                      <xs:element name="adresse" type="xs:string"></xs:element>
+                                                                      <xs:element name="code_postal" type="xs:int"></xs:element>
+                                                                      <xs:element name="localite" type="xs:string"></xs:element>
+                                                                      <xs:element name="telephone" type="xs:string"></xs:element>
+                                                                  </xs:sequence>
+                                                           </xs:complexType>
+                                                    </xs:element>
+                                                 <xs:element name="responsable_service">
+                                                        <xs:complexType>
+                                                               <xs:sequence>
+                                                                      <xs:element name="nom_serv" type="xs:string"></xs:element>
+                                                                      <xs:element name="civilite" type="xs:string"></xs:element>
+                                                                  </xs:sequence>
+                                                           </xs:complexType>
+                                                    </xs:element>
+                                                 <xs:element name="responsable_stagiaire">
+                                                        <xs:complexType>
+                                                               <xs:sequence>
+                                                                      <xs:element name="nom_resp_stag" type="xs:string"></xs:element>
+                                                                      <xs:element name="civilite" type="xs:string"></xs:element>
+                                                                  </xs:sequence>
+                                                           </xs:complexType>
+                                                    </xs:element>
+                                             </xs:sequence>
+                                          <xs:attribute name="nom_etudiant" type="xs:string" use="required"></xs:attribute>
+                                          <xs:attribute name="prenom_etudiant" type="xs:string" use="required"></xs:attribute>
+                                          </xs:complexType>
+                               </xs:element>
+                        </xs:sequence>
+                 </xs:complexType>
+          </xs:element>
+   </xs:schema>

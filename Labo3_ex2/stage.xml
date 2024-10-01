@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="style.xsl" type="text/xsl"?>
+<societes_stages xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="export.xsd">
+  <Etudiant nom_etudiant="Bouillon" prenom_etudiant="Aurélie">
+    <section>informatique</section>
+    <classe>3BI</classe>
+    <Societe>
+      <nom_societe>Fidexis</nom_societe>
+      <objet_social>assistance technique, commerciale, financière et administrative aux sociétés ou entreprises du groupe</objet_social>
+      <adresse>rue de la Charité, 13-17</adresse>
+      <code_postal>1210</code_postal>
+      <localite>BRUXELLES</localite>
+      <telephone>02/209-02-73</telephone>
+    </Societe>
+    <responsable_service>
+      <nom_serv>Duez Claude</nom_serv>
+      <civilite>Mr</civilite>
+    </responsable_service>
+    <responsable_stagiaire>
+      <nom_resp_stag>Libert</nom_resp_stag>
+      <civilite>Mr</civilite>
+    </responsable_stagiaire>
+  </Etudiant>
+  <Etudiant nom_etudiant="Cambier" prenom_etudiant="Marylène">
+    <section>informatique</section>
+    <classe>3BI</classe>
+    <Societe>
+      <nom_societe>Pixelixir sprl</nom_societe>
+      <adresse>Venelle de Terlongval, 45</adresse>
+      <code_postal>1300</code_postal>
+      <localite>WAVRE</localite>
+      <telephone>0496/124857</telephone>
+    </Societe>
+    <responsable_service>
+      <nom_serv>Dumont</nom_serv>
+      <civilite>Mr</civilite>
+    </responsable_service>
+    <responsable_stagiaire>
+      <nom_resp_stag>Dumont</nom_resp_stag>
+      <civilite>Me</civilite>
+    </responsable_stagiaire>
+  </Etudiant>
+  <Etudiant nom_etudiant="Coupet" prenom_etudiant="Cindy">
+    <section>informatique</section>
+    <classe>3BI</classe>
+    <Societe>
+      <nom_societe>Scius - ICT</nom_societe>
+      <adresse>Avenue Franklin Roosevelt, 104</adresse>
+      <code_postal>1332</code_postal>
+      <localite>GENVAL</localite>
+      <telephone>0477/277211</telephone>
+    </Societe>
+    <responsable_service>
+      <nom_serv>Eeckout</nom_serv>
+      <civilite>Mr</civilite>
+    </responsable_service>
+    <responsable_stagiaire>
+      <nom_resp_stag>Ernoux</nom_resp_stag>
+      <civilite>Mr</civilite>
+    </responsable_stagiaire>
+  </Etudiant>
+  <Etudiant nom_etudiant="Delbove" prenom_etudiant="Florence">
+    <section>informatique</section>
+    <classe>3BI</classe>
+    <Societe>
+      <nom_societe>Systemat S.A.</nom_societe>
+      <objet_social>achat et vente de matériel informatique et télématique</objet_social>
+      <adresse>Chaussée de Louvain, 435</adresse>
+      <code_postal>1380</code_postal>
+      <localite>LASNE</localite>
+      <telephone>02/4057000</telephone>
+    </Societe>
+    <responsable_service>
+      <nom_serv>Emmanuel GOFFAUX</nom_serv>
+      <civilite>Mr</civilite>
+    </responsable_service>
+    <responsable_stagiaire>
+      <nom_resp_stag>Marques</nom_resp_stag>
+      <civilite>Mr</civilite>
+    </responsable_stagiaire>
+  </Etudiant>
+  <Etudiant nom_etudiant="Detie" prenom_etudiant="Charlotte">
+    <section>informatique</section>
+    <classe>3BI</classe>
+    <Societe>
+      <nom_societe>ECS - Hermès</nom_societe>
+      <objet_social>Consultance en IT</objet_social>
+      <adresse>Rue de l'Industrie, 20</adresse>
+      <code_postal>1400</code_postal>
+      <localite>NIVELLES</localite>
+      <telephone>0479/670016</telephone>
+    </Societe>
+    <responsable_service>
+      <nom_serv>Eric Mrzyglod</nom_serv>
+      <civilite>Mr</civilite>
+    </responsable_service>
+    <responsable_stagiaire>
+      <nom_resp_stag>De Neve</nom_resp_stag>
+      <civilite>Mr</civilite>
+    </responsable_stagiaire>
+  </Etudiant>
+  <Etudiant nom_etudiant="Di Costa" prenom_etudiant="Estelle">
+    <section>informatique</section>
+    <classe>3BI</classe>
+    <Societe>
+      <nom_societe>T.D. Williamson S.A.</nom_societe>
+      <adresse>rue du Travail, 6</adresse>
+      <code_postal>1400</code_postal>
+      <localite>NIVELLES</localite>
+      <telephone>067/21.36.29</telephone>
+    </Societe>
+    <responsable_service>
+      <nom_serv>Ernoux</nom_serv>
+      <civilite>Mr</civilite>
+    </responsable_service>
+    <responsable_stagiaire>
+      <nom_resp_stag>Vellek</nom_resp_stag>
+      <civilite>Mr</civilite>
+    </responsable_stagiaire>
+  </Etudiant>
+  <Etudiant nom_etudiant="Francart" prenom_etudiant="David">
+    <section>informatique</section>
+    <classe>3BI</classe>
+    <Societe>
+      <nom_societe>FABRICOM-GTI</nom_societe>
+      <adresse>Chaussée de Tubize, 489</adresse>
+      <code_postal>1420</code_postal>
+      <localite>BRAINE L'ALLEUD</localite>
+      <telephone>0478/154258</telephone>
+    </Societe>
+    <responsable_service>
+      <nom_serv>Ernst Vincent</nom_serv>
+      <civilite>Mr</civilite>
+    </responsable_service>
+    <responsable_stagiaire>
+      <nom_resp_stag>Lecocq</nom_resp_stag>
+      <civilite>Mr</civilite>
+    </responsable_stagiaire>
+  </Etudiant>
+  <Etudiant nom_etudiant="Grumiaux" prenom_etudiant="Nathan">
+    <section>informatique</section>
+    <classe>3BI</classe>
+    <Societe>
+      <nom_societe>Arafox SCRL</nom_societe>
+      <objet_social>développements open source</objet_social>
+      <adresse>Avenue Leon Champagne, 2</adresse>
+      <code_postal>1480</code_postal>
+      <localite>TUBIZE</localite>
+      <telephone>023/91.45.51</telephone>
+    </Societe>
+    <responsable_service>
+      <nom_serv>Fabian Boiteux</nom_serv>
+      <civilite>Mr</civilite>
+    </responsable_service>
+    <responsable_stagiaire>
+      <nom_resp_stag>Aventure</nom_resp_stag>
+      <civilite>Me</civilite>
+    </responsable_stagiaire>
+  </Etudiant>
+  <Etudiant nom_etudiant="Henry" prenom_etudiant="Xavier">
+    <section>informatique</section>
+    <classe>3BI</classe>
+    <Societe>
+      <nom_societe>Stone-IT</nom_societe>
+      <objet_social>Security and Open Source consultant</objet_social>
+      <adresse>Minervastraat, 14</adresse>
+      <code_postal>1930</code_postal>
+      <localite>ZAVENTEM</localite>
+      <telephone>02/720.88.35</telephone>
+    </Societe>
+    <responsable_service>
+      <nom_serv>Fagnart</nom_serv>
+      <civilite>Mr</civilite>
+    </responsable_service>
+    <responsable_stagiaire>
+      <nom_resp_stag>Ronse</nom_resp_stag>
+      <civilite>Mr</civilite>
+    </responsable_stagiaire>
+  </Etudiant>
+  <Etudiant nom_etudiant="Lavenne" prenom_etudiant="Florentin">
+    <section>informatique</section>
+    <classe>3BI</classe>
+    <Societe>
+      <nom_societe>T-Systems</nom_societe>
+      <objet_social>retransmissions mondiales des événements sportifs</objet_social>
+      <adresse>Atlas Park, 41</adresse>
+      <code_postal>1930</code_postal>
+      <localite>ZAVENTEM</localite>
+      <telephone>02/716.81.68</telephone>
+    </Societe>
+    <responsable_service>
+      <nom_serv>Feye Benjamin</nom_serv>
+      <civilite>Mr</civilite>
+    </responsable_service>
+    <responsable_stagiaire>
+      <nom_resp_stag>Van Snick</nom_resp_stag>
+      <civilite>Mr</civilite>
+    </responsable_stagiaire>
+  </Etudiant>
+  <Etudiant nom_etudiant="Legrand" prenom_etudiant="Olivier">
+    <section>informatique</section>
+    <classe>3BI</classe>
+    <Societe>
+      <nom_societe>Alcatel Bell S.A. Namur</nom_societe>
+      <objet_social>Conception, construction et exploitation d’un réseau de radiotéléphones</objet_social>
+      <adresse>Bld Comte De Smet De Nayer, 14</adresse>
+      <code_postal>5000</code_postal>
+      <localite>NAMUR</localite>
+      <telephone>081/23.52.08</telephone>
+    </Societe>
+    <responsable_service>
+      <nom_serv>Fouad Riane</nom_serv>
+    </responsable_service>
+    <responsable_stagiaire>
+      <nom_resp_stag>Verdonck</nom_resp_stag>
+      <civilite>Mr</civilite>
+    </responsable_stagiaire>
+  </Etudiant>
+  <Etudiant nom_etudiant="Lenoir" prenom_etudiant="Sébastien">
+    <section>informatique</section>
+    <classe>3BI</classe>
+    <Societe>
+      <nom_societe>Electrabel Distribution Wallonie</nom_societe>
+      <objet_social>la vente (fourniture) d’électricité aux clients raccordés au réseau</objet_social>
+      <adresse>Avenue Albert 1er, 19</adresse>
+      <code_postal>5000</code_postal>
+      <localite>NAMUR</localite>
+      <telephone>081/24.42.63</telephone>
+    </Societe>
+    <responsable_service>
+      <nom_serv>François Lecardonnel</nom_serv>
+      <civilite>Mr</civilite>
+    </responsable_service>
+    <responsable_stagiaire>
+      <nom_resp_stag>Bailleux</nom_resp_stag>
+      <civilite>Mr</civilite>
+    </responsable_stagiaire>
+  </Etudiant>
+  <Etudiant nom_etudiant="Maréchal" prenom_etudiant="Jonas">
+    <section>informatique</section>
+    <classe>3BI</classe>
+    <Societe>
+      <nom_societe>Province de Namur : Service Informatique et Télécommunications</nom_societe>
+      <adresse>Rempart de la Vierge, 2</adresse>
+      <code_postal>5000</code_postal>
+      <localite>NAMUR</localite>
+      <telephone>081/257036</telephone>
+    </Societe>
+    <responsable_service>
+      <nom_serv>Frederik Pardon</nom_serv>
+      <civilite>Mr</civilite>
+    </responsable_service>
+    <responsable_stagiaire>
+      <nom_resp_stag>Van de Wiele</nom_resp_stag>
+      <civilite>Mr</civilite>
+    </responsable_stagiaire>
+  </Etudiant>
+  <Etudiant nom_etudiant="Marreda" prenom_etudiant="Florent">
+    <section>informatique</section>
+    <classe>3BI</classe>
+    <Societe>
+      <nom_societe>Virtual Technologies</nom_societe>
+      <objet_social>Designs, engineers, and manufactures custom communications products</objet_social>
+      <adresse>Rue Borgnet, 13</adresse>
+      <code_postal>5000</code_postal>
+      <localite>NAMUR</localite>
+      <telephone>081/24-92-13</telephone>
+    </Societe>
+    <responsable_service>
+      <nom_serv>Goffin Henri</nom_serv>
+      <civilite>Mr</civilite>
+    </responsable_service>
+    <responsable_stagiaire>
+      <nom_resp_stag>Coppens</nom_resp_stag>
+      <civilite>Mr</civilite>
+    </responsable_stagiaire>
+  </Etudiant>
+  <Etudiant nom_etudiant="Mathieu" prenom_etudiant="Thibaut">
+    <section>informatique</section>
+    <classe>3BI</classe>
+    <Societe>
+      <nom_societe>I.E.B.S</nom_societe>
+      <adresse>Chemin des artisans, 3c</adresse>
+      <code_postal>5150</code_postal>
+      <localite>ZONNING DE FLOREFFE</localite>
+      <telephone>0479/400220</telephone>
+    </Societe>
+    <responsable_service>
+      <nom_serv>Hanot</nom_serv>
+      <civilite>Mr</civilite>
+    </responsable_service>
+    <responsable_stagiaire>
+      <nom_resp_stag>Davut</nom_resp_stag>
+      <civilite>Mr</civilite>
+    </responsable_stagiaire>
+  </Etudiant>
+  <Etudiant nom_etudiant="Plaschaert" prenom_etudiant="Charles">
+    <section>informatique</section>
+    <classe>3BI</classe>
+    <Societe>
+      <nom_societe>Bmedia</nom_societe>
+      <objet_social>Consultant en technologie des medias</objet_social>
+      <adresse>Route de Mons, 27E</adresse>
+      <code_postal>6000</code_postal>
+      <localite>CHARLEROI</localite>
+      <telephone>071/567169</telephone>
+    </Societe>
+    <responsable_service>
+      <nom_serv>Herfurth Julien</nom_serv>
+      <civilite>Mr</civilite>
+    </responsable_service>
+    <responsable_stagiaire>
+      <nom_resp_stag>Peters</nom_resp_stag>
+      <civilite>Me</civilite>
+    </responsable_stagiaire>
+  </Etudiant>
+  <Etudiant nom_etudiant="Spronken" prenom_etudiant="Simon">
+    <section>informatique</section>
+    <classe>3BI</classe>
+    <Societe>
+      <nom_societe>Espace Santé</nom_societe>
+      <adresse>Boulevard Zoé Drion, 1</adresse>
+      <code_postal>6000</code_postal>
+      <localite>CHARLEROI</localite>
+      <telephone>0477/201324</telephone>
+    </Societe>
+    <responsable_service>
+      <nom_serv>Herplelinck Luc</nom_serv>
+      <civilite>Mr</civilite>
+    </responsable_service>
+    <responsable_stagiaire>
+      <nom_resp_stag>Breker</nom_resp_stag>
+      <civilite>Mr</civilite>
+    </responsable_stagiaire>
+  </Etudiant>
+  <Etudiant nom_etudiant="Vallée" prenom_etudiant="Anthony">
+    <section>informatique</section>
+    <classe>3BI</classe>
+    <Societe>
+      <nom_societe>LOGIC CONSULTANCE</nom_societe>
+      <objet_social>Consultant IT</objet_social>
+      <adresse>Boulevard Tirou, 185</adresse>
+      <code_postal>6000</code_postal>
+      <localite>CHARLEROI</localite>
+      <telephone>071/458629</telephone>
+    </Societe>
+    <responsable_service>
+      <nom_serv>Grioli Johan</nom_serv>
+      <civilite>Mr</civilite>
+    </responsable_service>
+    <responsable_stagiaire>
+      <nom_resp_stag>Carlot</nom_resp_stag>
+      <civilite>Mr</civilite>
+    </responsable_stagiaire>
+  </Etudiant>
+  <Etudiant nom_etudiant="Vertosa" prenom_etudiant="Damien">
+    <section>informatique</section>
+    <classe>3BI</classe>
+    <Societe>
+      <nom_societe>Alstom Belgium Transport</nom_societe>
+      <objet_social>opérateur industriel et financier dans le secteur des transports</objet_social>
+      <adresse>Rue Cambier-Dupret, 50-52</adresse>
+      <code_postal>6001</code_postal>
+      <localite>CHARLEROI</localite>
+      <telephone>071/743651</telephone>
+    </Societe>
+    <responsable_service>
+      <nom_serv>Iassinovski Sergueï</nom_serv>
+      <civilite>Mr</civilite>
+    </responsable_service>
+    <responsable_stagiaire>
+      <nom_resp_stag>Van de Wiele</nom_resp_stag>
+      <civilite>Mr</civilite>
+    </responsable_stagiaire>
+  </Etudiant>
+</societes_stages>

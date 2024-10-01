@@ -1,0 +1,100 @@
+/* Paramètres CSS pour la page de base */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+    font-size: 24px;
+    color: #0056b3;
+}
+
+p {
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Style des tableaux */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+    color: #0056b3;
+}
+
+td {
+    background-color: #ffffff;
+}
+
+/* Paramètres pour rendre la page responsive */
+@media only screen and (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+
+    table, th, td {
+        display: block;
+        width: 100%;
+    }
+
+    th {
+        display: none;
+    }
+
+    td {
+        display: block;
+        padding: 10px;
+        text-align: right;
+        border: none;
+    }
+
+    td::before {
+        content: attr(data-label);
+        float: left;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+}
+
+/* Print settings */
+@media print {
+    body {
+        font-size: 12pt;
+        color: #000;
+        background-color: white;
+    }
+
+    h1 {
+        page-break-before: always;
+        margin-top: 50px;
+    }
+
+    table {
+        margin-bottom: 50px;
+    }
+
+    /* Force la nouvelle proposition de stage à aller sur une nouvelle page */
+    .last_information {
+        page-break-after: always;
+    }
+
+    @page {
+        margin: 20mm;
+    }
+}
