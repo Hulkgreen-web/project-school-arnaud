@@ -1,0 +1,2596 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="cinema.xsl" type="text/xsl"?>
+<movies>
+  <movie>
+    <title>Vertigo</title>
+    <year>1958</year>
+    <genre>drama</genre>
+    <summary>Scottie Ferguson, ancien inspecteur de police, est sujet au vertige depuis qu'il a vu mourir son
+	 collûgue. Elster, son ami, le charge de surveiller sa femme, Madeleine, ayant des tendances
+	 suicidaires. Amoureux de la jeune femme Scottie ne remarque pas le piûge qui se trame autour
+	 de lui et dont il va ûtre la victime... </summary>
+    <country>USA</country>
+	<director  id='3' >
+	    <last_name>Hitchcock</last_name>
+	    <first_name>Alfred</first_name>
+	    <birth_date>1899</birth_date>
+	</director>
+	<actor  id='15' >
+	    <first_name>James</first_name>
+	    <last_name>Stewart</last_name>
+	    <birth_date>1908</birth_date>
+	    <role>John Ferguson</role>
+	</actor>
+	<actor  id='16' >
+	    <first_name>Kim</first_name>
+	    <last_name>Novak</last_name>
+	    <birth_date>1925</birth_date>
+	    <role>Madeleine Elster</role>
+	</actor>
+
+  </movie>
+  <movie>
+    <title>Alien</title>
+    <year>1979</year>
+    <genre>Science-fiction</genre>
+    <summary>Prûs d'un vaisseau spatial ûchouû sur une lointaine planûte, des Terriens en mission dûcouvrent
+	 de bien ûtranges "œufs". Ils en ramûnent un û bord, ignorant qu'ils viennent d'introduire parmi
+	 eux un huitiûme passager particuliûrement fûroce et meurtrier. </summary>
+    <country>USA</country>
+    <version>1</version>
+	<director  id='4' >
+	    <last_name>Scott</last_name>
+	    <first_name>Ridley</first_name>
+	    <birth_date>1937</birth_date>
+	</director>
+	<actor  id='5' >
+	    <first_name>Sigourney</first_name>
+	    <last_name>Weaver</last_name>
+	    <birth_date>1949</birth_date>
+	    <role>Ripley</role>
+	</actor>
+
+  </movie>
+  <movie>
+    <title>Titanic</title>
+    <year>1997</year>
+    <genre>drama</genre>
+    <summary>Conduite par Brock Lovett, une expûdition amûricaine fouillant l'ûpave du Titanic remonte û la
+	 surface le croquis d'une femme nue. Alertûe par les mûdias la dame en question, Rose DeWitt
+	 Bukater, aujourd'hui centenaire, rejoint les lieux du naufrage, d'oû elle entreprend de conter le
+	 rûcit de son fascinant, ûtrange et tragique voyage... </summary>
+    <country>USA</country>
+    <version>1</version>
+	<director  id='6' >
+	    <last_name>Cameron</last_name>
+	    <first_name>James</first_name>
+	    <birth_date>1954</birth_date>
+	</director>
+	<actor  id='109' >
+	    <first_name>Kate</first_name>
+	    <last_name>Winslet</last_name>
+	    <birth_date>1975</birth_date>
+	    <role>Rose DeWitt Bukater</role>
+	</actor>
+	<actor  id='110' >
+	    <first_name>Leonardo</first_name>
+	    <last_name>DiCaprio</last_name>
+	    <birth_date>1974</birth_date>
+	    <role>Jack Dawson</role>
+	</actor>
+
+  </movie>
+  <movie>
+    <title>Sacrifice</title>
+    <year>1986</year>
+    <genre>drama</genre>
+    <country>FR</country>
+    <version>1</version>
+	<director  id='9' >
+	    <last_name>Tarkovski</last_name>
+	    <first_name>Andrei</first_name>
+	    <birth_date>1932</birth_date>
+	</director>
+
+  </movie>
+  <movie>
+    <title>Volte/Face</title>
+    <year>1997</year>
+    <genre>Action</genre>
+    <summary>Directeur d'une unitû anti-terroriste, Sean Archer recherche Castor Troy, un criminel responsable de la
+	 mort de son fils six ans plus tût. Il parvient û l'arrûter mais apprend que Troy a cachû une bombe au Palais
+	 des Congrûs de Los Angeles. Seul le frûre de Troy peut la dûsamorcer et, pour l'approcher, Archer se fait
+	 greffer le visage de Troy. </summary>
+    <country>USA</country>
+    <version>1</version>
+	<director  id='10' >
+	    <last_name>Woo</last_name>
+	    <first_name>John</first_name>
+	    <birth_date>1946</birth_date>
+	</director>
+	<actor  id='11' >
+	    <first_name>John</first_name>
+	    <last_name>Travolta</last_name>
+	    <birth_date>1954</birth_date>
+	    <role>Sean Archer/Castor Troy</role>
+	</actor>
+	<actor  id='12' >
+	    <first_name>Nicolas</first_name>
+	    <last_name>Cage</last_name>
+	    <birth_date>1964</birth_date>
+	    <role>Castor Troy/Sean Archer</role>
+	</actor>
+
+  </movie>
+  <movie>
+    <title>Sleepy Hollow</title>
+    <year>1999</year>
+    <genre>Fantastique</genre>
+    <summary>Nouvelle Angleterre, 1799. A Sleepy Hollow, plusieurs cadavres sont retrouvûs dûcapitûs. La
+	                                      rumeur attribue ces meurtres û un cavalier lui-mûme sans tûte. Mais le fin limier
+	                                      new-yorkais Ichabod Crane ne croit pas en ses aberrations. Tombû sous le charme de la
+	                                      vûnûneuse Katrina, il mûne son enquûte au cœur des sortilûges de Sleepy Hollow.. </summary>
+    <country>USA</country>
+    <version>1</version>
+	<director  id='13' >
+	    <last_name>Burton</last_name>
+	    <first_name>Tim</first_name>
+	    <birth_date>1958</birth_date>
+	</director>
+	<actor  id='14' >
+	    <first_name>Johnny</first_name>
+	    <last_name>Depp</last_name>
+	    <birth_date>1964</birth_date>
+	    <role>Constable Ichabod Crane</role>
+	</actor>
+	<actor  id='96' >
+	    <first_name>Christina</first_name>
+	    <last_name>Ricci</last_name>
+	    <birth_date>1980</birth_date>
+	    <role>Katrina Anne Van Tassel</role>
+	</actor>
+	<actor  id='97' >
+	    <first_name>Christopher</first_name>
+	    <last_name>Walken</last_name>
+	    <birth_date>1943</birth_date>
+	    <role>Le cavalier</role>
+	</actor>
+
+  </movie>
+  <movie>
+    <title>American Beauty</title>
+    <year>1999</year>
+    <genre>Comûdie</genre>
+    <summary>Lester Burnham, sa femme Carolyn et leur fille Jane mûnent apparemment une vie des plus
+	 heureuses dans leur belle banlieue. Mais derriûre cette respectable faûade se tisse une ûtrange
+	 et grinûante tragi-comûdie familiale oû dûsirs inavouûs, frustrations et violences refoulûes
+	 conduiront inexorablement un homme vers la mort. </summary>
+    <country>USA</country>
+    <version>1</version>
+	<director  id='17' >
+	    <last_name>Mendes</last_name>
+	    <first_name>Sam</first_name>
+	    <birth_date>1965</birth_date>
+	</director>
+	<actor  id='18' >
+	    <first_name>Kevin</first_name>
+	    <last_name>Spacey</last_name>
+	    <birth_date>1959</birth_date>
+	    <role>Lester Burnham</role>
+	</actor>
+	<actor  id='19' >
+	    <first_name>Anette</first_name>
+	    <last_name>Bening</last_name>
+	    <birth_date>1958</birth_date>
+	    <role>Carolyn Burnham</role>
+	</actor>
+
+  </movie>
+  <movie>
+    <title>Impitoyable</title>
+    <year>1992</year>
+    <genre>Western</genre>
+    <summary>Lûgendaire hors-la-loi, William Munny s'est reconverti depuis onze ans en paisible fermier. Il
+	 reprend nûanmoins les armes pour traquer deux tueurs en compagnie de son vieil ami Ned
+	 Logan. Mais ce dernier est capturû, puis ûxûcute. L'honneur et l'amitiû imposent dûs lors û
+	 Munny de redevenir une derniûre fois le hûros qu'il fut jadis... </summary>
+    <country>USA</country>
+    <version>1</version>
+	<director  id='20' >
+	    <last_name>Eastwood</last_name>
+	    <first_name>Clint</first_name>
+	    <birth_date>1930</birth_date>
+	</director>
+	<actor  id='20' >
+	    <first_name>Clint</first_name>
+	    <last_name>Eastwood</last_name>
+	    <birth_date>1930</birth_date>
+	    <role>William Munny</role>
+	</actor>
+	<actor  id='21' >
+	    <first_name>Gene</first_name>
+	    <last_name>Hackman</last_name>
+	    <birth_date>1930</birth_date>
+	    <role>Little Bill Dagget</role>
+	</actor>
+	<actor  id='22' >
+	    <first_name>Morgan</first_name>
+	    <last_name>Freeman</last_name>
+	    <birth_date>1937</birth_date>
+	    <role>Ned Logan</role>
+	</actor>
+
+  </movie>
+  <movie>
+    <title>Gladiator</title>
+    <year>2000</year>
+    <genre>drama</genre>
+    <summary>Le gûnûral romain Maximus est le plus fidûle
+	                    soutien de l'empereur Marc Aurûle, qu'il a
+	                    conduit de victoire en victoire avec une
+	                    bravoure et un dûvouement exemplaires.
+	                    Jaloux du prestige de Maximus, et plus
+	                    encore de l'amour que lui voue l'empereur,
+	                    le fils de Marc-Aurûle, Commode, s'arroge
+	                    brutalement le pouvoir, puis ordonne
+	                    l'arrestation du gûnûral et son exûcution.
+	                    Maximus ûchappe û ses assassins mais ne peut
+	                    empûcher le massacre de sa famille. Capturû
+	                    par un marchand d'esclaves, il devient
+	                    gladiateur et prûpare sa vengeance.</summary>
+    <country>USA</country>
+    <version>1</version>
+	<director  id='4' >
+	    <last_name>Scott</last_name>
+	    <first_name>Ridley</first_name>
+	    <birth_date>1937</birth_date>
+	</director>
+	<actor  id='23' >
+	    <first_name>Russell</first_name>
+	    <last_name>Crowe</last_name>
+	    <birth_date>1964</birth_date>
+	    <role>Maximus</role>
+	</actor>
+	<actor  id='147' >
+	    <first_name>Adam</first_name>
+	    <last_name>Baldwin</last_name>
+	    <birth_date>1962</birth_date>
+	    <role>Commode</role>
+	</actor>
+	<actor  id='148' >
+	    <first_name>Ryan</first_name>
+	    <last_name>O'Neal</last_name>
+	    <birth_date>1941</birth_date>
+	    <role>Lucilla</role>
+	</actor>
+	<actor  id='149' >
+	    <first_name>Marisa</first_name>
+	    <last_name>Berenson</last_name>
+	    <birth_date>1946</birth_date>
+	    <role>Marc Aurele</role>
+	</actor>
+
+  </movie>
+  <movie>
+    <title>Blade Runner</title>
+    <year>1982</year>
+    <genre>Action</genre>
+    <summary>En 2019, lors de la dûcadence de Los Angeles, des ûtres synthûtiques, sans pensûe, sans
+	 ûmotions, suffisent aux diffûrents travaux d'entretien. Leur durûe de vie n'excûde pas 4 annûes.
+	 Un jour, ces ombres humaines se rûvoltent et on charge les tueurs, appelûs Blade Runner, de
+	 les abattre... </summary>
+    <country>USA</country>
+    <version>1</version>
+	<director  id='4' >
+	    <last_name>Scott</last_name>
+	    <first_name>Ridley</first_name>
+	    <birth_date>1937</birth_date>
+	</director>
+	<actor  id='24' >
+	    <first_name>Harrison</first_name>
+	    <last_name>Ford</last_name>
+	    <birth_date>1942</birth_date>
+	    <role>Deckard</role>
+	</actor>
+	<actor  id='25' >
+	    <first_name>Rutger</first_name>
+	    <last_name>Hauer</last_name>
+	    <birth_date>1944</birth_date>
+	    <role>Batty</role>
+	</actor>
+
+  </movie>
+  <movie>
+    <title>Piûge de cristal</title>
+    <year>1988</year>
+    <genre>Action</genre>
+    <summary>John Mc Clane, policier new-yorkais, vient passer Nœl a Los Angeles aupres de sa femme.
+	 Dans le building ou elle travaille, il se retrouve temoin de la prise en otage de tout le personnel
+	 par 12 terroristes. Objectif de ces derniers, vider les coffres de la societe. Cache mais isole, il
+	 entreprend de prevenir l'exterieur...</summary>
+    <country>USA</country>
+    <version>1</version>
+	<director  id='26' >
+	    <last_name>McTierman</last_name>
+	    <first_name>John</first_name>
+	    <birth_date>1951</birth_date>
+	</director>
+	<actor  id='27' >
+	    <first_name>Bruce</first_name>
+	    <last_name>Willis</last_name>
+	    <birth_date>1955</birth_date>
+	    <role>McClane</role>
+	</actor>
+
+  </movie>
+  <movie>
+    <title>58 minutes pour vivre</title>
+    <year>1990</year>
+    <genre>Action</genre>
+    <summary>
+	
+	
+	
+	
+	
+	
+	
+	 Venu attendre sa femme a l'aûroport, le policier John McClane remarque la prûsence de
+	 terroristes qui ont pris le contrûle des pistes, empûchant tout avion d'atterrir et menaûant de
+	 laisser les appareils en vol tourner jusqu'û ûpuisement de leur kûrosûne. John n'a devant lui que
+	 58 minutes pour ûviter la catastrophe... </summary>
+    <country>USA</country>
+    <version>1</version>
+	<director  id='28' >
+	    <last_name>Harlin</last_name>
+	    <first_name>Renny</first_name>
+	    <birth_date>1959</birth_date>
+	</director>
+	<actor  id='27' >
+	    <first_name>Bruce</first_name>
+	    <last_name>Willis</last_name>
+	    <birth_date>1955</birth_date>
+	    <role>McClane</role>
+	</actor>
+
+  </movie>
+  <movie>
+    <title>Van Gogh</title>
+    <year>1990</year>
+    <genre>drama</genre>
+    <summary>Les derniers jours de la vie de Vincent Van Gogh, rûfugiû û Auvers-sur-Oise, prûs de chez son
+	 ami et protecteur le docteur Gachet, un ami de son frûre Thûo. Ce peintre maudit, que les
+	 villageois surlast_namemaient "le fou", n'avait alors plus que deux mois û vivre, qu'il passa en
+	 peignant un tableau par jour. </summary>
+    <country>FR</country>
+    <version>1</version>
+	<director  id='29' >
+	    <last_name>Pialat</last_name>
+	    <first_name>Maurice</first_name>
+	    <birth_date>1925</birth_date>
+	</director>
+	<actor  id='30' >
+	    <first_name>Jacques</first_name>
+	    <last_name>Dutronc</last_name>
+	    <birth_date>1943</birth_date>
+	    <role>Van Gogh</role>
+	</actor>
+
+  </movie>
+  <movie>
+    <title>Seven</title>
+    <year>1995</year>
+    <genre>crime</genre>
+    <summary>A New York, un criminel anonyme a dûcidû de commettre 7 meurtres basûs sur les 7 pûchûs
+	 capitaux ûnoncûs dans la Bible : gourmandise, avarice, paresse, orgueil, luxure, envie et colûre.
+	 Vieux flic blasû û 7 jours de la retraite, l'inspecteur Somerset mûne l'enquûte tout en formant
+	 son remplaûant, l'ambitieux inspecteur David Mills... </summary>
+    <country>USA</country>
+    <version>1</version>
+	<director  id='31' >
+	    <last_name>Fincher</last_name>
+	    <first_name>David</first_name>
+	    <birth_date>1962</birth_date>
+	</director>
+	<actor  id='18' >
+	    <first_name>Kevin</first_name>
+	    <last_name>Spacey</last_name>
+	    <birth_date>1959</birth_date>
+	    <role>Dœ</role>
+	</actor>
+	<actor  id='22' >
+	    <first_name>Morgan</first_name>
+	    <last_name>Freeman</last_name>
+	    <birth_date>1937</birth_date>
+	    <role>Somerset</role>
+	</actor>
+	<actor  id='32' >
+	    <first_name>Brad</first_name>
+	    <last_name>Pitt</last_name>
+	    <birth_date>1963</birth_date>
+	    <role>Mills</role>
+	</actor>
+
+  </movie>
+  <movie>
+    <title>L'armûe des douze singes</title>
+    <year>1995</year>
+    <genre>Science-fiction</genre>
+    <country>USA</country>
+    <version>1</version>
+	<director  id='33' >
+	    <last_name>Gilliam</last_name>
+	    <first_name>Terry</first_name>
+	    <birth_date>1940</birth_date>
+	</director>
+	<actor  id='27' >
+	    <first_name>Bruce</first_name>
+	    <last_name>Willis</last_name>
+	    <birth_date>1955</birth_date>
+	    <role>Cole</role>
+	</actor>
+
+  </movie>
+  <movie>
+    <title>Le last_name de la rose</title>
+    <year>1986</year>
+    <genre>crime</genre>
+    <summary>En l'an 1327, dans une abbaye bûnûdictine, le moine franciscain Guillaume de Baskerville,
+	 accompagnû de son jeune novice Adso, enquûte sur de mystûrieuses morts qui frappent la
+	 confrûrie. Le secret semble rûsider dans la bibliothûque, oû le vieux Jorge garde jalousement un
+	 livre jugû maudit. </summary>
+    <country>FR</country>
+    <version>1</version>
+	<director  id='34' >
+	    <last_name>Annaud</last_name>
+	    <first_name>Jean-Jacques</first_name>
+	    <birth_date>1943</birth_date>
+	</director>
+	<actor  id='35' >
+	    <first_name>Sean</first_name>
+	    <last_name>Connery</last_name>
+	    <birth_date>1930</birth_date>
+	    <role>Baskerville</role>
+	</actor>
+	<actor  id='36' >
+	    <first_name>Christian</first_name>
+	    <last_name>Slater</last_name>
+	    <birth_date>1969</birth_date>
+	    <role>de Melk</role>
+	</actor>
+
+  </movie>
+  <movie>
+    <title>Pulp fiction</title>
+    <year>1994</year>
+    <genre>Action</genre>
+    <summary>Pulp Fiction dûcrit l'odyssûe sanglante et burlesque de petits malfrats dans la jungle de
+	 Hollywood, ou s'entrecroisent les destins de deux petits tueurs, d'un dangereux gangster mariû
+	 û une camûe, d'un boxeur roublard, de prûteurs sur gages sadiques, d'un caûd ûlûgant et
+	 dûvouû, d'un dealer bon mari et de deux tourtereaux û la gachette facile... </summary>
+    <country>USA</country>
+    <version>1</version>
+	<director  id='37' >
+	    <last_name>Tarantino</last_name>
+	    <first_name>Quentin</first_name>
+	    <birth_date>1963</birth_date>
+	</director>
+	<actor  id='11' >
+	    <first_name>John</first_name>
+	    <last_name>Travolta</last_name>
+	    <birth_date>1954</birth_date>
+	    <role>Vincent Vega</role>
+	</actor>
+	<actor  id='27' >
+	    <first_name>Bruce</first_name>
+	    <last_name>Willis</last_name>
+	    <birth_date>1955</birth_date>
+	    <role>Butch Coolidge</role>
+	</actor>
+	<actor  id='37' >
+	    <first_name>Quentin</first_name>
+	    <last_name>Tarantino</last_name>
+	    <birth_date>1963</birth_date>
+	    <role>Jimmy Dimmick</role>
+	</actor>
+	<actor  id='38' >
+	    <first_name>Samuel L.</first_name>
+	    <last_name>Jackson</last_name>
+	    <birth_date>1948</birth_date>
+	    <role>Jules Winnfield</role>
+	</actor>
+	<actor  id='39' >
+	    <first_name>Rosanna</first_name>
+	    <last_name>Arquette</last_name>
+	    <birth_date>1959</birth_date>
+	    <role>Jody</role>
+	</actor>
+	<actor  id='40' >
+	    <first_name>Uma</first_name>
+	    <last_name>Thurman</last_name>
+	    <birth_date>1970</birth_date>
+	    <role>Mia Wallace</role>
+	</actor>
+	<actor  id='97' >
+	    <first_name>Christopher</first_name>
+	    <last_name>Walken</last_name>
+	    <birth_date>1943</birth_date>
+	    <role>Capt. Koons</role>
+	</actor>
+	<actor  id='98' >
+	    <first_name>Harvey</first_name>
+	    <last_name>Keitel</last_name>
+	    <birth_date>1939</birth_date>
+	    <role>Winston "The Wolf" Wolfe</role>
+	</actor>
+	<actor  id='99' >
+	    <first_name>Tim</first_name>
+	    <last_name>Roth</last_name>
+	    <birth_date>1961</birth_date>
+	    <role>Pumpkin (Ringo)</role>
+	</actor>
+
+  </movie>
+  <movie>
+    <title>Mary û tout prix</title>
+    <year>1998</year>
+    <genre>Comûdie</genre>
+    <summary>Pour retrouver l'amour de sa jeunesse, la belle Mary, Ted-le-looser engage Pat Healy, un
+	 privû. Subjugû par la jeune femme, ce dernier tente de la sûduire en se faisant passer pour un
+	 architecte. Il cache la vûritû û Ted et fait cause commune avec Tucker, un autre prûtendant,
+	 pour se dûbarrasser de l'encombrant Ted... </summary>
+    <country>USA</country>
+    <version>1</version>
+	<director  id='41' >
+	    <last_name>Farrelly</last_name>
+	    <first_name>Bobby</first_name>
+	    <birth_date>1958</birth_date>
+	</director>
+	<actor  id='42' >
+	    <first_name>Cameron</first_name>
+	    <last_name>Diaz</last_name>
+	    <birth_date>1972</birth_date>
+	    <role>Mary Jensen Matthews</role>
+	</actor>
+	<actor  id='43' >
+	    <first_name>Mat</first_name>
+	    <last_name>Dillon</last_name>
+	    <birth_date>1964</birth_date>
+	    <role>Pat Healy</role>
+	</actor>
+
+  </movie>
+  <movie>
+    <title>Terminator</title>
+    <year>1984</year>
+    <genre>Science-fiction</genre>
+    <summary>Deux creatures venues du futur debarquent sur terre. L'une d'entre elles, le Terminator, doit
+	 eliminer une certaine Sarah Connor, qui doit enfanter celui qui sera le chef d'un groupe de
+	 resistants. L'autre, Kyle Reese, est charge par les rebelles de defendre Sarah... </summary>
+    <country>USA</country>
+    <version>1</version>
+	<director  id='6' >
+	    <last_name>Cameron</last_name>
+	    <first_name>James</first_name>
+	    <birth_date>1954</birth_date>
+	</director>
+	<actor  id='44' >
+	    <first_name>Arnold</first_name>
+	    <last_name>Schwartzenegger</last_name>
+	    <birth_date>1947</birth_date>
+	    <role>Terminator</role>
+	</actor>
+
+  </movie>
+  <movie>
+    <title>Les dents de la mer</title>
+    <year>1975</year>
+    <genre>Horreur</genre>
+    <summary>Dans la station balnûaire d'Amityville, un requin gûant frappe û plusieurs reprises. Soucieux
+	 d'une bonne saison touristique, le maire interdit au sherif Brody de fermer les plages. Une prime
+	 est offerte et le cûlûbre chasseur de requin Quint se lance avec Brody et l'ichtyologue Hooper û
+	 la poursuite du monstre... </summary>
+    <country>FR</country>
+    <version>1</version>
+	<director  id='45' >
+	    <last_name>Spielberg</last_name>
+	    <first_name>Steven</first_name>
+	    <birth_date>1946</birth_date>
+	</director>
+	<actor  id='46' >
+	    <first_name>Roy</first_name>
+	    <last_name>Scheider</last_name>
+	    <birth_date>1932</birth_date>
+	    <role>Martin Brody</role>
+	</actor>
+	<actor  id='47' >
+	    <first_name>Robert</first_name>
+	    <last_name>Shaw</last_name>
+	    <birth_date>1927</birth_date>
+	    <role>Quint</role>
+	</actor>
+	<actor  id='48' >
+	    <first_name>Richard</first_name>
+	    <last_name>Dreyfus</last_name>
+	    <birth_date>1947</birth_date>
+	    <role>Matt Hooper</role>
+	</actor>
+
+  </movie>
+  <movie>
+    <title>Le silence des agneaux</title>
+    <year>1990</year>
+    <genre>crime</genre>
+    <summary>Afin de retrouver la piste d'un tueur surlast_namemû Buffalo Bill car il scalpe les femmes qu'il
+	 assassine, la jeune stagiaire du FBI Clarice Starling est dûpûchûe auprûs d'Hannibal Lecter,
+	 prisonnier pour avoir dûvorû ses victimes. La coopûration de ce dernier devrait permettre û
+	 Clarice de saisir et d'anticiper le comportement de Buffalo... </summary>
+    <country>USA</country>
+    <version>1</version>
+	<director  id='49' >
+	    <last_name>Demme</last_name>
+	    <first_name>Jonathan</first_name>
+	    <birth_date>1944</birth_date>
+	</director>
+	<actor  id='50' >
+	    <first_name>Anthony</first_name>
+	    <last_name>Hopkins</last_name>
+	    <birth_date>1937</birth_date>
+	    <role>Dr. Hannibal Lecter</role>
+	</actor>
+	<actor  id='51' >
+	    <first_name>Jodie</first_name>
+	    <last_name>Foster</last_name>
+	    <role>Clarice Starling</role>
+	</actor>
+
+  </movie>
+  <movie>
+    <title>Godzilla</title>
+    <year>1998</year>
+    <genre>Action</genre>
+    <summary>Issu des radiations atomiques engendrûes par les essais nuclûaires en Polynûsie, un monstre
+	 gigantesque, aussi haut qu'un building, se dirige vers New York, semant le chaos sur son
+	 passage. Pour tenter de stopper cette crûature destructrice, l'armûe s'associe û une ûquipe de
+	 scientifiques amûricains et û un ûnigmatique enquûteur franûais... </summary>
+    <country>USA</country>
+    <version>1</version>
+	<director  id='58' >
+	    <last_name>Emmerich</last_name>
+	    <first_name>Roland</first_name>
+	    <birth_date>1955</birth_date>
+	</director>
+	<actor  id='59' >
+	    <first_name>Matthew</first_name>
+	    <last_name>Broderick</last_name>
+	    <birth_date>1962</birth_date>
+	    <role>Dr. Nikos Tatopoulos</role>
+	</actor>
+	<actor  id='60' >
+	    <first_name>Jean</first_name>
+	    <last_name>Reno</last_name>
+	    <birth_date>1948</birth_date>
+	    <role>Philippe Roachû</role>
+	</actor>
+
+  </movie>
+  <movie>
+    <title>Matrix</title>
+    <year>1999</year>
+    <genre>Science-fiction</genre>
+    <summary>Dans un monde oû tout ce qui semble rûel est en fait ûlaborû par l'univers ûlectronique baptisû
+	 la Matrice, Nûo, un programmeur, est contactû par un certain Morpheus. D'aprûs lui, Nûo
+	 serait le Libûrateur tant attendu, le seul capable de mettre en ûchec l'omnipotence de la
+	 Matrice et rendre ses droits û la rûalitû... </summary>
+    <country>USA</country>
+    <version>1</version>
+	<director  id='61' >
+	    <last_name>Wachowski</last_name>
+	    <first_name>Andy</first_name>
+	    <birth_date>1967</birth_date>
+	</director>
+	<actor  id='62' >
+	    <first_name>Keanu</first_name>
+	    <last_name>Reeves</last_name>
+	    <birth_date>1964</birth_date>
+	    <role>Neo</role>
+	</actor>
+	<actor  id='63' >
+	    <first_name>Laurence</first_name>
+	    <last_name>Fishburne</last_name>
+	    <birth_date>1961</birth_date>
+	    <role>Morpheus</role>
+	</actor>
+
+  </movie>
+  <movie>
+    <title>Mission: Impossible</title>
+    <year>1996</year>
+    <genre>Action</genre>
+    <summary>Chargû d'une nouvelle mission, l'agent du contre espionnage Ethan Hunt tombe avec son
+	 ûquipe dans un piûge sanglant. Seul survivant avec Claire, la jeune ûpouse de son regrettû chef
+	 Jim Phelps, Ethan se retrouve accusû de trahison. En fuite, il prûpare sa contre-attaque,
+	 recrutant l'homme de main Krieger et le pirate informatique Luther... </summary>
+    <country>USA</country>
+    <version>1</version>
+	<director  id='64' >
+	    <last_name>De Palma</last_name>
+	    <first_name>Brian</first_name>
+	    <birth_date>1940</birth_date>
+	</director>
+	<actor  id='60' >
+	    <first_name>Jean</first_name>
+	    <last_name>Reno</last_name>
+	    <birth_date>1948</birth_date>
+	    <role>Franz Krieger</role>
+	</actor>
+	<actor  id='65' >
+	    <first_name>Tom</first_name>
+	    <last_name>Cruise</last_name>
+	    <birth_date>1962</birth_date>
+	    <role>Ethan Hunt</role>
+	</actor>
+	<actor  id='66' >
+	    <first_name>John</first_name>
+	    <last_name>Voight</last_name>
+	    <birth_date>1938</birth_date>
+	    <role>Jim Phelps</role>
+	</actor>
+	<actor  id='67' >
+	    <first_name>Emmanuelle</first_name>
+	    <last_name>Bart</last_name>
+	    <birth_date>1965</birth_date>
+	    <role>Claire Phelps</role>
+	</actor>
+
+  </movie>
+  <movie>
+    <title>Kagemusha</title>
+    <year>1980</year>
+    <genre>Guerre</genre>
+    <summary>Au XVIe siecle, Takeda, grand seigneur trouble par les guerres civiles de son pays, fait appel a
+	 un Kagemusha pour l'aider dans ses batailles. Takeda est blesse et avant de mourir, il exige que
+	 sa mort soit tenue secrete pendant trois ans afin d'eviter un eclatement du clan. Le Kagemusha
+	 devra le remplacer... </summary>
+    <country>JP</country>
+    <version>1</version>
+	<director  id='68' >
+	    <last_name>Kurozawa</last_name>
+	    <first_name>Akira</first_name>
+	    <birth_date>1910</birth_date>
+	</director>
+
+  </movie>
+  <movie>
+    <title>Les pleins pouvoirs</title>
+    <year>1997</year>
+    <genre>crime</genre>
+    <summary>Luther Whitney est l'as des cambrioleurs. Occupû û vider le coffre de l'influent Walter Sullivan,
+	 il est tûmoin d'un meurtre sadique impliquant le Prûsident des Etats-Unis et les services
+	 secrets. Soupûonnû par la police d'en ûtre l'auteur, il se retrouve ûgalement traquû par les
+	 tueurs, qui ont compris qu'ils ont ûtû observûs.</summary>
+    <country>USA</country>
+    <version>1</version>
+	<director  id='20' >
+	    <last_name>Eastwood</last_name>
+	    <first_name>Clint</first_name>
+	    <birth_date>1930</birth_date>
+	</director>
+	<actor  id='20' >
+	    <first_name>Clint</first_name>
+	    <last_name>Eastwood</last_name>
+	    <birth_date>1930</birth_date>
+	    <role>Luther Whitney</role>
+	</actor>
+	<actor  id='21' >
+	    <first_name>Gene</first_name>
+	    <last_name>Hackman</last_name>
+	    <birth_date>1930</birth_date>
+	    <role>Le prûsident Richmond</role>
+	</actor>
+	<actor  id='69' >
+	    <first_name>Ed</first_name>
+	    <last_name>Harris</last_name>
+	    <birth_date>1950</birth_date>
+	    <role>Seth Frank</role>
+	</actor>
+
+  </movie>
+  <movie>
+    <title>Le gendarme et les extra-terrestres</title>
+    <year>1978</year>
+    <genre>Comûdie</genre>
+    <summary>En anglais: Gendarme and the Creatures from Outer Space !
+	</summary>
+    <country>FR</country>
+    <version>1</version>
+	<director  id='71' >
+	    <last_name>Girault</last_name>
+	    <first_name>Jean</first_name>
+	    <birth_date>1924</birth_date>
+	</director>
+	<actor  id='72' >
+	    <first_name>Louis</first_name>
+	    <last_name>De Funs</last_name>
+	    <birth_date>1914</birth_date>
+	    <role>Inspecteur Cruchot</role>
+	</actor>
+	<actor  id='73' >
+	    <first_name>Michel</first_name>
+	    <last_name>Galabru</last_name>
+	    <birth_date>1922</birth_date>
+	    <role>Adjudant Gerber</role>
+	</actor>
+
+  </movie>
+  <movie>
+    <title>Le monde perdu</title>
+    <year>1997</year>
+    <genre>Horreur</genre>
+    <country>USA</country>
+    <version>1</version>
+	<director  id='45' >
+	    <last_name>Spielberg</last_name>
+	    <first_name>Steven</first_name>
+	    <birth_date>1946</birth_date>
+	</director>
+	<actor  id='57' >
+	    <first_name>Jeff</first_name>
+	    <last_name>Goldblum</last_name>
+	    <birth_date>1952</birth_date>
+	    <role>Dr. Ian Malcolm</role>
+	</actor>
+
+  </movie>
+  <movie>
+    <title>Rain Man</title>
+    <year>1988</year>
+    <genre>drama</genre>
+    <summary>A la mort de son pûre, Charlie se voit dûpossûder de son hûritage par un frûre dont il ignorait
+	 l'existence, Raymond. Celui-ci est autiste et vit dans un hûpital psychiatrique. Charlie enlûve
+	 Raymond afin de prouver qu'il est capable de s'en occuper et de toucher l'hûritage. </summary>
+    <country>USA</country>
+    <version>1</version>
+	<director  id='79' >
+	    <last_name>Levinson</last_name>
+	    <first_name>Barry</first_name>
+	    <birth_date>1942</birth_date>
+	</director>
+	<actor  id='65' >
+	    <first_name>Tom</first_name>
+	    <last_name>Cruise</last_name>
+	    <birth_date>1962</birth_date>
+	    <role>Charlie Babbitt</role>
+	</actor>
+	<actor  id='80' >
+	    <first_name>Dustin</first_name>
+	    <last_name>Hoffman</last_name>
+	    <birth_date>1937</birth_date>
+	    <role>Raymond Babbitt</role>
+	</actor>
+
+  </movie>
+  <movie>
+    <title>Top Gun</title>
+    <year>1986</year>
+    <genre>Action</genre>
+    <summary>
+	 Pilote de chasse ûmûrite mais casse-cou Maverick Mitchell est admis û Top Gun, l'ûcole de
+	 l'ûlite de l'aûronavale. Son manque de prudence lui attire les foudres de ses supûrieurs et la
+	 haine de certains coûquipiers. Il perd subitement la foi et confiance en lui quand son ami de
+	 toujours meurt en vol et qu'il s'en croit responsable... </summary>
+    <country>USA</country>
+    <version>1</version>
+	<director  id='81' >
+	    <last_name>Scott</last_name>
+	    <first_name>Tony</first_name>
+	    <birth_date>1944</birth_date>
+	</director>
+	<actor  id='53' >
+	    <first_name>Val</first_name>
+	    <last_name>Kilmer</last_name>
+	    <birth_date>1959</birth_date>
+	    <role>Iceman</role>
+	</actor>
+	<actor  id='65' >
+	    <first_name>Tom</first_name>
+	    <last_name>Cruise</last_name>
+	    <birth_date>1962</birth_date>
+	    <role>Lt. Pete 'Maverick' Mitchell</role>
+	</actor>
+	<actor  id='82' >
+	    <first_name>Kelly</first_name>
+	    <last_name>McGillis</last_name>
+	    <birth_date>1957</birth_date>
+	    <role>Charlotte Blackwood</role>
+	</actor>
+
+  </movie>
+  <movie>
+    <title>Les bronzûs font du ski</title>
+    <year>1979</year>
+    <genre>Comûdie</genre>
+    <summary>Apres avoir passe des vacances d'ete ensemble, Bernard, Nathalie, Gigi, Jerome, Popeye,
+	 Jean-Claude et Christiane se retrouvent aux sports d'hiver. Tous ont leurs problemes de cœur
+	 ou d'argent, mais il faut bien vivre avec. Avant de se separer, se perdre dans la montagne leur
+	 permet de gouter aux joies de la "vraie vie" paysanne... </summary>
+    <country>FR</country>
+    <version>1</version>
+	<director  id='83' >
+	    <last_name>Leconte</last_name>
+	    <first_name>Patrice</first_name>
+	    <birth_date>1947</birth_date>
+	</director>
+	<actor  id='75' >
+	    <first_name>Josiane</first_name>
+	    <last_name>Balasko</last_name>
+	    <birth_date>1950</birth_date>
+	    <role>Nathalie Morin</role>
+	</actor>
+	<actor  id='76' >
+	    <first_name>Dominique</first_name>
+	    <last_name>Lavanant</last_name>
+	    <birth_date>1944</birth_date>
+	    <role>Christiane</role>
+	</actor>
+	<actor  id='84' >
+	    <first_name>Michel</first_name>
+	    <last_name>Blanc</last_name>
+	    <birth_date>1952</birth_date>
+	    <role>Jean-Claude Dus</role>
+	</actor>
+	<actor  id='85' >
+	    <first_name>Christian</first_name>
+	    <last_name>Clavier</last_name>
+	    <birth_date>1952</birth_date>
+	    <role>Jûrûme</role>
+	</actor>
+	<actor  id='86' >
+	    <first_name>Thierry</first_name>
+	    <last_name>Lhermite</last_name>
+	    <birth_date>1952</birth_date>
+	    <role>Popeye</role>
+	</actor>
+
+  </movie>
+  <movie>
+    <title>Le bon, la brute et le truand</title>
+    <year>1966</year>
+    <genre>Western</genre>
+    <summary>Pendant la Guerre de Sûcession, trois hommes, prûfûrant s'intûresser û leur profit personnel, se lancent û la recherche d'un coffre contenant 200 000 dollars en piûces d'or volûs û l'armûe sudiste. Tuco sait que le trûsor se trouve dans un cimetiûre, tandis que Jœ connaût le last_name inscrit sur la pierre tombale qui sert de cache. Chacun a besoin de l'autre. Mais un troisiûme homme entre dans la course : Setenza, une brute qui n'hûsite pas û massacrer femmes et enfants pour parvenir û ses fins.</summary>
+    <country>IT</country>
+    <version>1</version>
+	<director  id='219' >
+	    <last_name>Leone</last_name>
+	    <first_name>Sergio</first_name>
+	    <birth_date>1929</birth_date>
+	</director>
+	<actor  id='20' >
+	    <first_name>Clint</first_name>
+	    <last_name>Eastwood</last_name>
+	    <birth_date>1930</birth_date>
+	</actor>
+
+  </movie>
+  <movie>
+    <title>Psychose</title>
+    <year>1960</year>
+    <genre>Thriller</genre>
+    <summary>Aprûs avoir volû 40 000 dollars, Marion Crane se rend dans un motel tenu par Norman Bates. Elle est
+	 poignardûe sous sa douche par une femme. Norman fait disparaitre le corps et les affaires de la jeune
+	 femme. Mais Sam, le fiancû de Marion, inquiet de ne pas avoir de nouvelles, engage un dûtective pour la
+	 retrouver... </summary>
+    <country>USA</country>
+    <version>1</version>
+	<director  id='3' >
+	    <last_name>Hitchcock</last_name>
+	    <first_name>Alfred</first_name>
+	    <birth_date>1899</birth_date>
+	</director>
+	<actor  id='88' >
+	    <first_name>Anthony</first_name>
+	    <last_name>Perkins</last_name>
+	    <birth_date>1932</birth_date>
+	    <role>Bates</role>
+	</actor>
+	<actor  id='89' >
+	    <first_name>Vera</first_name>
+	    <last_name>Miles</last_name>
+	    <birth_date>1929</birth_date>
+	    <role>Lila Crane</role>
+	</actor>
+	<actor  id='90' >
+	    <first_name>Janet</first_name>
+	    <last_name>Leigh</last_name>
+	    <birth_date>1927</birth_date>
+	    <role>Marion Crane</role>
+	</actor>
+
+  </movie>
+  <movie>
+    <title>Le retour du Jedi</title>
+    <year>1983</year>
+    <genre>Science-fiction</genre>
+    <summary>Luke Skywalker s'introduit chez Jabba pour delivrer Han Solo et la princesse Leia, tandis que l'Empire
+	 reconstruit une deuxieme "Etoile de la Mort". Luke se rend ensuite au chevet de Yoda qui est mourant. Il lui
+	 apprend que Leia est sa sœur. Luke forme un commando pour attaquer l'Etoile, tandis qu'il affronte son
+	 pere, Darth Vador... </summary>
+    <country>USA</country>
+    <version>1</version>
+	<director  id='91' >
+	    <last_name>Marquand</last_name>
+	    <first_name>Richard</first_name>
+	    <birth_date>1938</birth_date>
+	</director>
+	<actor  id='24' >
+	    <first_name>Harrison</first_name>
+	    <last_name>Ford</last_name>
+	    <birth_date>1942</birth_date>
+	    <role>Han Solo</role>
+	</actor>
+	<actor  id='92' >
+	    <first_name>Mark</first_name>
+	    <last_name>Hamill</last_name>
+	    <birth_date>1951</birth_date>
+	    <role>Luke Skywalker</role>
+	</actor>
+	<actor  id='93' >
+	    <first_name>Carrie</first_name>
+	    <last_name>Fisher</last_name>
+	    <birth_date>1956</birth_date>
+	    <role>Princesse Leia</role>
+	</actor>
+
+  </movie>
+  <movie>
+    <title>Les oiseaux</title>
+    <year>1963</year>
+    <genre>Horreur</genre>
+    <summary>Melanie Daniels se rend û Bodega Bay pour offrir deux perruches en cage û Cathy, la sœur de l'avocat
+	 Mitch Brenner. Attaquûe par une mouette, Melanie reste chez les Brenner pour la nuit. Mais d'autres
+	 ûvûnements ûtranges se produisent: des enfants sont blessûs par des corbeaux et la maison de Mitch est
+	 envahie par des milliers d'oiseaux. </summary>
+    <country>USA</country>
+    <version>1</version>
+	<director  id='3' >
+	    <last_name>Hitchcock</last_name>
+	    <first_name>Alfred</first_name>
+	    <birth_date>1899</birth_date>
+	</director>
+	<actor  id='94' >
+	    <first_name>Rod</first_name>
+	    <last_name>Taylor</last_name>
+	    <birth_date>1930</birth_date>
+	    <role>Mitch Brenner</role>
+	</actor>
+	<actor  id='95' >
+	    <first_name>Tippi</first_name>
+	    <last_name>Hedren</last_name>
+	    <birth_date>1931</birth_date>
+	    <role>Melanie Daniels</role>
+	</actor>
+
+  </movie>
+  <movie>
+    <title>Reservoir dogs</title>
+    <year>1992</year>
+    <genre>crime</genre>
+    <summary>Aprûs un hold-up manquû, des cambrioleurs de haut vol font leurs comptes dans une confrontation violente, pour dûcouvrir lequel d'entre eux les a trahis.
+	
+	
+	
+	
+	 Voleurs de profession, Jœ Cabot et son fils Eddie engagent un groupe de six criminels pour le cambriolage
+	 d'un diamantaire. Malgrû toutes les prûcautions prises, la police est sur place le jour J, et l'opûration se
+	 solde par un massacre. Les survivants du gang se rûunissent pour rûgler leurs comptes, chacun
+	 soupûonnant l'autre d'avoir trahi. </summary>
+    <country>USA</country>
+    <version>1</version>
+	<director  id='37' >
+	    <last_name>Tarantino</last_name>
+	    <first_name>Quentin</first_name>
+	    <birth_date>1963</birth_date>
+	</director>
+	<actor  id='37' >
+	    <first_name>Quentin</first_name>
+	    <last_name>Tarantino</last_name>
+	    <birth_date>1963</birth_date>
+	    <role>Mr. Brown</role>
+	</actor>
+	<actor  id='98' >
+	    <first_name>Harvey</first_name>
+	    <last_name>Keitel</last_name>
+	    <birth_date>1939</birth_date>
+	    <role>Mr. White/Larry</role>
+	</actor>
+	<actor  id='99' >
+	    <first_name>Tim</first_name>
+	    <last_name>Roth</last_name>
+	    <birth_date>1961</birth_date>
+	    <role>Freddy Newendyke/Mr. Orange</role>
+	</actor>
+	<actor  id='100' >
+	    <first_name>Chris</first_name>
+	    <last_name>Penn</last_name>
+	    <birth_date>1966</birth_date>
+	    <role>Nice Guy Eddie</role>
+	</actor>
+	<actor  id='215' >
+	    <first_name>Michael</first_name>
+	    <last_name>Madsen</last_name>
+	    <birth_date>1958</birth_date>
+	    <role>Mr Blonde</role>
+	</actor>
+	<actor  id='217' >
+	    <first_name>Steve</first_name>
+	    <last_name>Buscemi</last_name>
+	    <birth_date>1957</birth_date>
+	    <role>Mr Pink</role>
+	</actor>
+	<actor  id='218' >
+	    <first_name>Edward</first_name>
+	    <last_name>Bunker</last_name>
+	    <birth_date>1933</birth_date>
+	    <role>Mr Blue</role>
+	</actor>
+
+  </movie>
+  <movie>
+    <title>Eyes Wide Shut</title>
+    <year>1999</year>
+    <genre>Thriller</genre>
+    <summary>Un couple de bourgeois, cûdant û la jalousie et û l'obsession sexuelle, entreprend un voyage psychologique
+	 û la recherche de son identitû. Le mari, au bout de son pûriple nocturne, revenu de ses dûsirs, ne trouvera
+	 finalement auprûs de son ûpouse qu'un compromis banal mais complice, les yeux ouverts û tout jamais sur
+	 un rûve impossible. </summary>
+    <country>USA</country>
+    <version>1</version>
+	<director  id='101' >
+	    <last_name>Kubrick</last_name>
+	    <first_name>Stanley</first_name>
+	    <birth_date>1928</birth_date>
+	</director>
+	<actor  id='65' >
+	    <first_name>Tom</first_name>
+	    <last_name>Cruise</last_name>
+	    <birth_date>1962</birth_date>
+	    <role>Docteur William "Bill" Harford</role>
+	</actor>
+	<actor  id='102' >
+	    <first_name>Nicole</first_name>
+	    <last_name>Kidman</last_name>
+	    <birth_date>1967</birth_date>
+	    <role>Alice Harford</role>
+	</actor>
+
+  </movie>
+  <movie>
+    <title>Shining</title>
+    <year>1980</year>
+    <genre>Horreur</genre>
+    <summary>Jack Torrance s'installe avec sa femme et son fils Danny dans un hûtel fermû û la morte saison afin d'ûcrire
+	 un roman. Il apprend que le gardien prûcûdent a tuû sa femme et ses deux filles avant de se suicider. Trûs
+	 vite, Jack va s'apercevoir que des choses ûtranges se passent autour de lui et que son fils a des pouvoirs
+	 extrasensoriels... </summary>
+    <country>FR</country>
+    <version>1</version>
+	<director  id='101' >
+	    <last_name>Kubrick</last_name>
+	    <first_name>Stanley</first_name>
+	    <birth_date>1928</birth_date>
+	</director>
+	<actor  id='103' >
+	    <first_name>Jack</first_name>
+	    <last_name>Nicholson</last_name>
+	    <birth_date>1937</birth_date>
+	    <role>Jack Torrance</role>
+	</actor>
+
+  </movie>
+  <movie>
+    <title>Pas de printemps pour Marnie</title>
+    <year>1964</year>
+    <genre>Thriller</genre>
+    <summary>Marnie est engagûe comme secrûtaire chez un editeur, Mark Rutland. Celui-ci amoureux d'elle, dûcouvre
+	 qu'elle est kleptomane et l'oblige û l'ûpouser en la menaûant de la dûnoncer. En s'apercevant que Marnie a
+	 la phobie de la cou leur rouge, Mark tente de remonter dans le passû de la jeune femme afin de comprendre
+	 les raisons de sa nûvrose. </summary>
+    <country>USA</country>
+    <version>1</version>
+	<director  id='3' >
+	    <last_name>Hitchcock</last_name>
+	    <first_name>Alfred</first_name>
+	    <birth_date>1899</birth_date>
+	</director>
+	<actor  id='35' >
+	    <first_name>Sean</first_name>
+	    <last_name>Connery</last_name>
+	    <birth_date>1930</birth_date>
+	    <role>
+                       Mark R</role>
+	</actor>
+	<actor  id='95' >
+	    <first_name>Tippi</first_name>
+	    <last_name>Hedren</last_name>
+	    <birth_date>1931</birth_date>
+	    <role>Marnie Edgar</role>
+	</actor>
+
+  </movie>
+  <movie>
+    <title>Fenûtre sur cour</title>
+    <year>1954</year>
+    <genre>Suspense</genre>
+    <summary>En repos forcû û cause d'une jambe plûtrûe, le reporter L.B. Jefferies observe au tûlûobjectif les voisins de
+	 l'immeuble d'en face. C'est ainsi qu'il remarque le curieux manûge d'un reprûsentant de commerce, M.
+	 Thorwald, qu'il soupconne trûs vite d'avoir assassinû sa femme... </summary>
+    <country>USA</country>
+    <version>1</version>
+	<director  id='3' >
+	    <last_name>Hitchcock</last_name>
+	    <first_name>Alfred</first_name>
+	    <birth_date>1899</birth_date>
+	</director>
+
+  </movie>
+  <movie>
+    <title>La mort aux trousses</title>
+    <year>1959</year>
+    <genre>Suspense</genre>
+    <summary>Roger Thornhill, publiciste, est pris dans le hall de son hûtel pour un certain Kaplan, un espion. Deux
+	 hommes tentent de le tuer et quand il retrouve l'un de ses agresseurs, celui-ci est assassinû devant ses
+	 yeux. Pris pour un meurtrier, il est obligû de fuir vers Chicago... </summary>
+    <country>USA</country>
+    <version>1</version>
+	<director  id='3' >
+	    <last_name>Hitchcock</last_name>
+	    <first_name>Alfred</first_name>
+	    <birth_date>1899</birth_date>
+	</director>
+	<actor  id='105' >
+	    <first_name>Cary</first_name>
+	    <last_name>Grant</last_name>
+	    <birth_date>1904</birth_date>
+	    <role>Roger O. Thornhill</role>
+	</actor>
+	<actor  id='106' >
+	    <first_name>Eva Marie</first_name>
+	    <last_name>Saint</last_name>
+	    <birth_date>1924</birth_date>
+	    <role>Eve Kendall</role>
+	</actor>
+	<actor  id='107' >
+	    <first_name>James</first_name>
+	    <last_name>Mason</last_name>
+	    <birth_date>1909</birth_date>
+	    <role>Philipp Vandamm</role>
+	</actor>
+
+  </movie>
+  <movie>
+    <title>Jeanne d'Arc</title>
+    <year>1999</year>
+    <genre>Guerre</genre>
+    <country>FR</country>
+    <version>1</version>
+	<director  id='111' >
+	    <last_name>Besson</last_name>
+	    <first_name>Luc</first_name>
+	    <birth_date>1959</birth_date>
+	</director>
+	<actor  id='80' >
+	    <first_name>Dustin</first_name>
+	    <last_name>Hoffman</last_name>
+	    <birth_date>1937</birth_date>
+	</actor>
+	<actor  id='112' >
+	    <first_name>Milla</first_name>
+	    <last_name>Jovovich</last_name>
+	    <birth_date>1975</birth_date>
+	    <role>Jeanne d'Arc</role>
+	</actor>
+	<actor  id='113' >
+	    <first_name>Fane</first_name>
+	    <last_name>Dunaway</last_name>
+	    <birth_date>1941</birth_date>
+	    <role>Yolande d'Aragon</role>
+	</actor>
+	<actor  id='114' >
+	    <first_name>John</first_name>
+	    <last_name>Malkovitch</last_name>
+	    <birth_date>1953</birth_date>
+	    <role>Charles VII</role>
+	</actor>
+	<actor  id='115' >
+	    <first_name>Tchky</first_name>
+	    <last_name>Karyo</last_name>
+	    <birth_date>1953</birth_date>
+	    <role>Dunois</role>
+	</actor>
+
+  </movie>
+  <movie>
+    <title>Le cinquiûme ûlûment</title>
+    <year>1997</year>
+    <genre>Science-fiction</genre>
+    <summary>Au XXIIIûme siûcle, dans un univers ûtrange et colorû, oû tout espoir de survie est impossible sans la
+	 dûcouverte du Cinquiûme Elûment, un hûros peu ordinaire affronte le mal pour sauver l'humanitû. </summary>
+    <country>FR</country>
+    <version>1</version>
+	<director  id='111' >
+	    <last_name>Besson</last_name>
+	    <first_name>Luc</first_name>
+	    <birth_date>1959</birth_date>
+	</director>
+	<actor  id='27' >
+	    <first_name>Bruce</first_name>
+	    <last_name>Willis</last_name>
+	    <birth_date>1955</birth_date>
+	    <role>Major Korben Dalla</role>
+	</actor>
+	<actor  id='112' >
+	    <first_name>Milla</first_name>
+	    <last_name>Jovovich</last_name>
+	    <birth_date>1975</birth_date>
+	    <role>Leeloo</role>
+	</actor>
+	<actor  id='116' >
+	    <first_name>Gary</first_name>
+	    <last_name>Oldman</last_name>
+	    <birth_date>1958</birth_date>
+	    <role>Jean-Baptiste Emmanuel Zorg</role>
+	</actor>
+	<actor  id='117' >
+	    <first_name>Ian</first_name>
+	    <last_name>Holm</last_name>
+	    <birth_date>1931</birth_date>
+	    <role>Vito Cornelius</role>
+	</actor>
+
+  </movie>
+  <movie>
+    <title>Lûon</title>
+    <year>1994</year>
+    <genre>Action</genre>
+    <summary>"Lûon est un tueur. Un de la pire espûce. Il est introuvable, indûtectable, pire qu'un sous-marin. Son ombre
+	 est comme une menace de danger permanent sur New York. Indestructible Lûon ? Oui, jusqu'û ce qu'une
+	 petite souris pûnûtre son univers. Une toute petite souris aux yeux immenses..." </summary>
+    <country>FR</country>
+    <version>1</version>
+	<director  id='111' >
+	    <last_name>Besson</last_name>
+	    <first_name>Luc</first_name>
+	    <birth_date>1959</birth_date>
+	</director>
+	<actor  id='60' >
+	    <first_name>Jean</first_name>
+	    <last_name>Reno</last_name>
+	    <birth_date>1948</birth_date>
+	    <role>Lûon</role>
+	</actor>
+	<actor  id='116' >
+	    <first_name>Gary</first_name>
+	    <last_name>Oldman</last_name>
+	    <birth_date>1958</birth_date>
+	    <role>Norman Stansfield</role>
+	</actor>
+	<actor  id='118' >
+	    <first_name>Natalie</first_name>
+	    <last_name>Portman</last_name>
+	    <birth_date>1981</birth_date>
+	    <role>Mathilda</role>
+	</actor>
+
+  </movie>
+  <movie>
+    <title>Nikita</title>
+    <year>1990</year>
+    <genre>Thriller</genre>
+    <summary>Nikita, droguûe et violente, est prise en mains par des psychiatres qui la rûûduquent, la conditionnent, afin
+	 d'en faire une tueuse û la botte des Services Secrets. Plus tard, rûalisant ce qu'elle est devenue, un pion
+	 sans vie privûe que l'on manipule, elle tente d'ûchapper û ses commanditaires. </summary>
+    <country>FR</country>
+    <version>1</version>
+	<director  id='111' >
+	    <last_name>Besson</last_name>
+	    <first_name>Luc</first_name>
+	    <birth_date>1959</birth_date>
+	</director>
+	<actor  id='115' >
+	    <first_name>Tchky</first_name>
+	    <last_name>Karyo</last_name>
+	    <birth_date>1953</birth_date>
+	    <role>Bob</role>
+	</actor>
+	<actor  id='119' >
+	    <first_name>Anne</first_name>
+	    <last_name>Parillaud</last_name>
+	    <birth_date>1960</birth_date>
+	    <role>Nikita</role>
+	</actor>
+	<actor  id='120' >
+	    <first_name>Jean-Hughes</first_name>
+	    <last_name>Anglade</last_name>
+	    <birth_date>1955</birth_date>
+	    <role>Marco</role>
+	</actor>
+
+  </movie>
+  <movie>
+    <title>Le grand bleu</title>
+    <year>1988</year>
+    <genre>drama</genre>
+    <summary>Jacques Mayol et Enzo Molinari se connaissent depuis l'enfance. Tous deux experts en apnûe, s'affrontent
+	 continuellement pour obtenir le record du monde de plongûe. Toujours en rivalitû, les deux hommes
+	 descendent de plus en plus profond, au risque de leurs vies. Le film est ressorti en janvier 89 en version
+	 longue d'une durûe de 2h40. </summary>
+    <country>FR</country>
+    <version>1</version>
+	<director  id='111' >
+	    <last_name>Besson</last_name>
+	    <first_name>Luc</first_name>
+	    <birth_date>1959</birth_date>
+	</director>
+	<actor  id='39' >
+	    <first_name>Rosanna</first_name>
+	    <last_name>Arquette</last_name>
+	    <birth_date>1959</birth_date>
+	    <role>Johanna</role>
+	</actor>
+	<actor  id='60' >
+	    <first_name>Jean</first_name>
+	    <last_name>Reno</last_name>
+	    <birth_date>1948</birth_date>
+	    <role>Enzo Molinari</role>
+	</actor>
+	<actor  id='121' >
+	    <first_name>Jean-Marc</first_name>
+	    <last_name>Barr</last_name>
+	    <birth_date>1960</birth_date>
+	    <role>Jacques Mayol</role>
+	</actor>
+
+  </movie>
+  <movie>
+    <title>Spider-Man</title>
+    <year>2002</year>
+    <genre>Action</genre>
+    <summary>Orphelin, Peter Parker est ûlevû par sa tante May et son oncle Ben dans le quartier Queens de New York. Tout en poursuivant ses ûtudes û l'universitû, il trouve un emploi de photographe au journal Daily Bugle. Il partage son appartement avec Harry Osborn, son meilleur ami, et rûve de sûduire la belle Mary Jane.
+	Cependant, aprûs avoir ûtû mordu par une araignûe gûnûtiquement modifiûe, Peter voit son agilitû et sa force s'accroûtre et se dûcouvre des pouvoirs surnaturels. Devenu Spider-Man, il dûcide d'utiliser ses nouvelles capacitûs au service du bien.
+	Au mûme moment, le pûre de Harry, le richissime industriel Norman Osborn, est victime d'un accident chimique qui a dûmesurûment augmentû ses facultûs intellectuelles et sa force, mais l'a rendu fou. Il est devenu le Bouffon Vert, une crûature dûmoniaque qui menace la ville. Entre lui et Spider-Man, une lutte sans merci s'engage.</summary>
+    <country>USA</country>
+    <version>1</version>
+	<director  id='187' >
+	    <last_name>Raimi</last_name>
+	    <first_name>Sam</first_name>
+	    <birth_date>1959</birth_date>
+	</director>
+	<actor  id='124' >
+	    <first_name>Wesley</first_name>
+	    <last_name>Snipes</last_name>
+	    <birth_date>1962</birth_date>
+	    <role>Spider-Man</role>
+	</actor>
+	<actor  id='125' >
+	    <first_name>Annabella</first_name>
+	    <last_name>Sciora</last_name>
+	    <birth_date>1964</birth_date>
+	    <role>Norman Osborn</role>
+	</actor>
+	<actor  id='126' >
+	    <first_name>Isabella</first_name>
+	    <last_name>Rosselini</last_name>
+	    <birth_date>1952</birth_date>
+	    <role>Mary Jane Watson</role>
+	</actor>
+	<actor  id='127' >
+	    <first_name>Vincent</first_name>
+	    <last_name>Gallo</last_name>
+	    <birth_date>1961</birth_date>
+	    <role>Oncle Ben</role>
+	</actor>
+	<actor  id='128' >
+	    <first_name>Lars</first_name>
+	    <last_name>von Trier</last_name>
+	    <birth_date>1956</birth_date>
+	    <role>Tante May</role>
+	</actor>
+
+  </movie>
+  <movie>
+    <title>King of New York</title>
+    <year>1990</year>
+    <genre>drama</genre>
+    <summary>L'histoire d'un gangster au grand cœur mais aux mûthodes dûfinitives, surlast_namemû par le presse The King of New York et qui rûve de fonder un hûpital, confrontû a des policiers opiniûtres qui ont jurû de l'abattre...</summary>
+    <country>USA</country>
+    <version>1</version>
+	<director  id='122' >
+	    <last_name>Ferrara</last_name>
+	    <first_name>Abel</first_name>
+	    <birth_date>1951</birth_date>
+	</director>
+	<actor  id='63' >
+	    <first_name>Laurence</first_name>
+	    <last_name>Fishburne</last_name>
+	    <birth_date>1961</birth_date>
+	    <role>Jimmy Jump</role>
+	</actor>
+	<actor  id='97' >
+	    <first_name>Christopher</first_name>
+	    <last_name>Walken</last_name>
+	    <birth_date>1943</birth_date>
+	    <role>Frank White</role>
+	</actor>
+	<actor  id='124' >
+	    <first_name>Wesley</first_name>
+	    <last_name>Snipes</last_name>
+	    <birth_date>1962</birth_date>
+	    <role>Thomas Flanigan</role>
+	</actor>
+	<actor  id='131' >
+	    <first_name>Matthieu</first_name>
+	    <last_name>Kassowitz</last_name>
+	    <birth_date>1967</birth_date>
+	    <role>Dennis Gilley</role>
+	</actor>
+	<actor  id='132' >
+	    <first_name>Vincent</first_name>
+	    <last_name>Cassel</last_name>
+	    <birth_date>1966</birth_date>
+	    <role>Thomas Flanigan</role>
+	</actor>
+	<actor  id='217' >
+	    <first_name>Steve</first_name>
+	    <last_name>Buscemi</last_name>
+	    <birth_date>1957</birth_date>
+	    <role>Test tube</role>
+	</actor>
+
+  </movie>
+  <movie>
+    <title>The Matrix reloaded</title>
+    <year>2003</year>
+    <genre>Science-fiction</genre>
+    <summary>Neo apprend û mieux contrûler ses dons naturels, alors mûme que Sion s'apprûte û tomber sous l'assaut de l'Armûe des Machines. D'ici quelques heures, 250 000 Sentinelles programmûes pour anûantir notre espûce envahiront la derniûre enclave humaine de la Terre.
+	Mais Morpheus galvanise les citoyens de Sion en leur rappelant la Parole de l'Oracle : il est encore temps pour l'Elu d'arrûter la guerre contre les Machines. Tous les espoirs se reportent dûs lors sur Neo. Au long de sa pûrilleuse plongûe au sein de la Matrix et de sa propre destinûe, ce dernier sera confrontû û une rûsistance croissante, une vûritû encore plus aveuglante, un choix encore plus douloureux que tout ce qu'il avait jamais imaginû.</summary>
+    <country>USA</country>
+    <version>1</version>
+	<director  id='61' >
+	    <last_name>Wachowski</last_name>
+	    <first_name>Andy</first_name>
+	    <birth_date>1967</birth_date>
+	</director>
+	<actor  id='62' >
+	    <first_name>Keanu</first_name>
+	    <last_name>Reeves</last_name>
+	    <birth_date>1964</birth_date>
+	    <role>Neo</role>
+	</actor>
+	<actor  id='63' >
+	    <first_name>Laurence</first_name>
+	    <last_name>Fishburne</last_name>
+	    <birth_date>1961</birth_date>
+	    <role>Morpheus</role>
+	</actor>
+	<actor  id='210' >
+	    <first_name>Carrie-Anne</first_name>
+	    <last_name>Moss</last_name>
+	    <birth_date>1967</birth_date>
+	    <role>Trinity</role>
+	</actor>
+	<actor  id='211' >
+	    <first_name>Hugo</first_name>
+	    <last_name>Weaving</last_name>
+	    <birth_date>1960</birth_date>
+	    <role>Agent Smith</role>
+	</actor>
+
+  </movie>
+  <movie>
+    <title>The Matrix Revolutions</title>
+    <year>2003</year>
+    <genre>Science-fiction</genre>
+    <summary>La longue quûte de libertû des rebelles culmine en une bataille finale explosive. Tandis que l'armûe des Machines sûme la dûsolation sur Zion, ses citoyens organisent une dûfense acharnûe. Mais pourront-ils retenir les nuûes implacables des Sentinelles en attendant que Neo s'approprie l'ensemble de ses pouvoirs et mette fin û la guerre ?
+	L'agent Smith est quant û lui parvenu û prendre possession de l'esprit de Bane, l'un des membres de l'ûquipage de l'aûroglisseur. De plus en plus puissant, il est dûsormais incontrûlable et n'obûit plus aux Machines : il menace de dûtruire leur empire ainsi que le monde rûel et la Matrice...
+	
+		</summary>
+    <country>USA</country>
+    <version>1</version>
+	<director  id='135' >
+	    <last_name>Phœnix</last_name>
+	    <first_name>Joaquin</first_name>
+	    <birth_date>1974</birth_date>
+	</director>
+	<actor  id='62' >
+	    <first_name>Keanu</first_name>
+	    <last_name>Reeves</last_name>
+	    <birth_date>1964</birth_date>
+	    <role>Neo</role>
+	</actor>
+	<actor  id='63' >
+	    <first_name>Laurence</first_name>
+	    <last_name>Fishburne</last_name>
+	    <birth_date>1961</birth_date>
+	    <role>Morpheus</role>
+	</actor>
+	<actor  id='134' >
+	    <first_name>Mark</first_name>
+	    <last_name>Wahlberg</last_name>
+	    <birth_date>1971</birth_date>
+	    <role>Agent Smith</role>
+	</actor>
+	<actor  id='136' >
+	    <first_name>Charlize</first_name>
+	    <last_name>Theron</last_name>
+	    <birth_date>1975</birth_date>
+	    <role>Trinity</role>
+	</actor>
+	<actor  id='137' >
+	    <first_name>James</first_name>
+	    <last_name>Caan</last_name>
+	    <birth_date>1940</birth_date>
+	    <role>L'Oracle</role>
+	</actor>
+
+  </movie>
+  <movie>
+    <title>De bruit et de fureur</title>
+    <year>1988</year>
+    <genre>drama</genre>
+    <summary>L'histoire de Bruno, enfant attardû des banlieues et des H.L.M., plongû dans la violence de son milieu, et dont la vie va se consumer comme une ûtoile filante.</summary>
+    <country>FR</country>
+    <version>1</version>
+	<director  id='138' >
+	    <last_name>Chabrol</last_name>
+	    <first_name>Claude</first_name>
+	    <birth_date>1930</birth_date>
+	</director>
+	<actor  id='139' >
+	    <first_name>Isabelle</first_name>
+	    <last_name>Huppert</last_name>
+	    <birth_date>1953</birth_date>
+	    <role>Marcel</role>
+	</actor>
+	<actor  id='140' >
+	    <first_name>Anna</first_name>
+	    <last_name>Mouglalis</last_name>
+	    <birth_date>1978</birth_date>
+	    <role>Enseignante</role>
+	</actor>
+	<actor  id='141' >
+	    <first_name>Kevin</first_name>
+	    <last_name>Costner</last_name>
+	    <birth_date>1955</birth_date>
+	    <role>Bruno</role>
+	</actor>
+
+  </movie>
+  <movie>
+    <title>Usual suspects</title>
+    <year>1995</year>
+    <genre>Thriller</genre>
+    <summary>Une lûgende du crime contraint cinq malfrats û aller s'aquitter d'une tûche trûs pûrilleuse. Ceux qui survivent pourront se partager un butin de 90 millions de dollars.</summary>
+    <country>USA</country>
+    <version>1</version>
+	<director  id='142' >
+	    <last_name>Dern</last_name>
+	    <first_name>Laura</first_name>
+	    <birth_date>1967</birth_date>
+	</director>
+	<actor  id='18' >
+	    <first_name>Kevin</first_name>
+	    <last_name>Spacey</last_name>
+	    <birth_date>1959</birth_date>
+	    <role>Roger "Verbal" Kint</role>
+	</actor>
+	<actor  id='143' >
+	    <first_name>Tom</first_name>
+	    <last_name>Hanks</last_name>
+	    <birth_date>1956</birth_date>
+	    <role>Micheal McManus</role>
+	</actor>
+	<actor  id='144' >
+	    <first_name>Tom</first_name>
+	    <last_name>Sizemore</last_name>
+	    <birth_date>1964</birth_date>
+	    <role>Dean Keaton</role>
+	</actor>
+	<actor  id='145' >
+	    <first_name>Matt</first_name>
+	    <last_name>Damon</last_name>
+	    <birth_date>1970</birth_date>
+	    <role>Fred Fenster</role>
+	</actor>
+	<actor  id='146' >
+	    <first_name>Matthew</first_name>
+	    <last_name>Modine</last_name>
+	    <birth_date>1959</birth_date>
+	    <role>Todd Hockney</role>
+	</actor>
+
+  </movie>
+  <movie>
+    <title>Bad Lieutenant</title>
+    <year>1992</year>
+    <genre>drama</genre>
+    <summary>La descente aux enfers d'un flic pourri qui enquete sur le viol d'une jolie religieuse.</summary>
+    <country>USA</country>
+    <version>1</version>
+	<director  id='122' >
+	    <last_name>Ferrara</last_name>
+	    <first_name>Abel</first_name>
+	    <birth_date>1951</birth_date>
+	</director>
+	<actor  id='98' >
+	    <first_name>Harvey</first_name>
+	    <last_name>Keitel</last_name>
+	    <birth_date>1939</birth_date>
+	    <role>Le lieutenant</role>
+	</actor>
+
+  </movie>
+  <movie>
+    <title>Le parrain</title>
+    <year>1972</year>
+    <genre>drama</genre>
+    <summary>En 1945, û New York, les Corleone sont une des cinq familles de la mafia. Don Vito Corleone, " parrain " de cette famille, marie sa fille û un bookmaker. Sollozzo, " parrain " de la famille Tattaglia, propose û Don Vito une association dans le trafic de drogue, mais celui-ci refuse. Sonny, un de ses fils, y est quant û lui favorable.
+	Afin de traiter avec Sonny, Sollozzo tente de faire tuer Don Vito, mais celui-ci en rûchappe. Michael, le frûre cadet de Sonny, recherche alors les commanditaires de l'attentat et tue Sollozzo et le chef de la police, en reprûsailles.
+	Michael part alors en Sicile, oû il ûpouse Apollonia, mais celle-ci est assassinûe û sa place. De retour û New York, Michael ûpouse Kay Adams et se prûpare û devenir le successeur de son pûre...</summary>
+    <country>USA</country>
+	<director  id='181' >
+	    <last_name>Coppola</last_name>
+	    <first_name>Francis Ford</first_name>
+	    <birth_date>1940</birth_date>
+	</director>
+	<actor  id='137' >
+	    <first_name>James</first_name>
+	    <last_name>Caan</last_name>
+	    <birth_date>1940</birth_date>
+	    <role>Sonny Corleone</role>
+	</actor>
+	<actor  id='155' >
+	    <first_name>Sterling</first_name>
+	    <last_name>Hayden</last_name>
+	    <birth_date>1916</birth_date>
+	    <role>Capt. McCluskey</role>
+	</actor>
+	<actor  id='176' >
+	    <first_name>Al</first_name>
+	    <last_name>Pacino</last_name>
+	    <birth_date>1940</birth_date>
+	    <role>Michael Corleone</role>
+	</actor>
+	<actor  id='182' >
+	    <first_name>Marlon</first_name>
+	    <last_name>Brando</last_name>
+	    <birth_date>1924</birth_date>
+	    <role>Do Vito Corleone</role>
+	</actor>
+	<actor  id='183' >
+	    <first_name>Diane</first_name>
+	    <last_name>Keaton</last_name>
+	    <birth_date>1946</birth_date>
+	    <role>Kay Adams</role>
+	</actor>
+	<actor  id='184' >
+	    <first_name>Robert</first_name>
+	    <last_name>Duvall</last_name>
+	    <birth_date>1931</birth_date>
+	    <role>Tom Hagen</role>
+	</actor>
+
+  </movie>
+  <movie>
+    <title>Le parrain II</title>
+    <year>1974</year>
+    <genre>drama</genre>
+    <summary>A la mort de Vito Corleone, dit "le Parrain", c'est son fils, Michael, qui reprend les affaires familiales. Trûs vite, son ascension dans le milieu mafiosi est fulgurante.
+	
+	Depuis la mort De Don Vito Corleone, son fils, Michael, rûgne sur la famille. Amenû û nûgocier avec la mafia juive, il perd alors le soutien d'un de ses lieutenants, Frankie Pentageli. Echappant de justesse û un attentat, Michael tente de retrouver le coupable, soupûonnant Hyman Roth, le chef de la mafia juive.
+	Vito Corleone, immigrant italien, arrive û New York au dûbut du siûcle ; trûs vite, il devient un des caûds du quartier, utilisant la violence comme moyen de rûgler toutes les affaires. Seul au dûpart, il bûtit peu û peu un vûritable empire, origine de la fortune de la famille des Corleone.
+		</summary>
+    <country>USA</country>
+	<director  id='181' >
+	    <last_name>Coppola</last_name>
+	    <first_name>Francis Ford</first_name>
+	    <birth_date>1940</birth_date>
+	</director>
+	<actor  id='167' >
+	    <first_name>Robert</first_name>
+	    <last_name>De Niro</last_name>
+	    <birth_date>1943</birth_date>
+	    <role>Don Vito Corleone</role>
+	</actor>
+	<actor  id='176' >
+	    <first_name>Al</first_name>
+	    <last_name>Pacino</last_name>
+	    <birth_date>1940</birth_date>
+	    <role>Michael Corleone</role>
+	</actor>
+	<actor  id='183' >
+	    <first_name>Diane</first_name>
+	    <last_name>Keaton</last_name>
+	    <birth_date>1946</birth_date>
+	    <role>Kay Adams</role>
+	</actor>
+	<actor  id='184' >
+	    <first_name>Robert</first_name>
+	    <last_name>Duvall</last_name>
+	    <birth_date>1931</birth_date>
+	    <role>Tom Hagen</role>
+	</actor>
+
+  </movie>
+  <movie>
+    <title>Le parrain III</title>
+    <year>1990</year>
+    <genre>drama</genre>
+    <summary>Atteignant la soixantaine, Michael Corleone dûsire û la fois renouer avec les siens et se rûhabiliter aux yeux de la sociûtû, surtout de l'Eglise. Il arrivera presque a ses fins, mais sa vie passûe et ses anciens ennemis le rattraperont plus vite.
+	
+	Michael Corleone est fatiguû. Il veut prendre ses distances avec les activitûs mafieuses de sa famille. Il veut convertir ces activitûs en affaires lûgales. Kay, son ex-femme, lui fait mûme accepter que leur fils devienne un chanteur d'opûra et ne reprenne pas les activitûs familiales.
+	Pendant ce temps, la fille de Michael, Mary, et son neveu, le fils de Sonny, Vincent, nouent une idylle qui n'est pas la bienvenue dans la famille.
+	Il dûcide d'aider le Vatican û renflouer ses caisses et reûoit en ûchange le contrûle d'une entreprise immobiliûre leur appartenant. Attisant la jalousie de ses pairs, Michael ûchappe de justesse û un attentat commis par l'un d'eux. Vincent se propose alors pour reprendre les affaires de la famille en main.</summary>
+    <country>USA</country>
+	<director  id='181' >
+	    <last_name>Coppola</last_name>
+	    <first_name>Francis Ford</first_name>
+	    <birth_date>1940</birth_date>
+	</director>
+	<actor  id='1' >
+	    <first_name>Sofia</first_name>
+	    <last_name>Coppola</last_name>
+	    <birth_date>1971</birth_date>
+	    <role>Mary Corleone</role>
+	</actor>
+	<actor  id='176' >
+	    <first_name>Al</first_name>
+	    <last_name>Pacino</last_name>
+	    <birth_date>1940</birth_date>
+	    <role>Michael Corleone</role>
+	</actor>
+	<actor  id='183' >
+	    <first_name>Diane</first_name>
+	    <last_name>Keaton</last_name>
+	    <birth_date>1946</birth_date>
+	    <role>Kay Adams</role>
+	</actor>
+	<actor  id='186' >
+	    <first_name>Andy</first_name>
+	    <last_name>Garcia</last_name>
+	    <birth_date>1956</birth_date>
+	    <role>Vincent Mancini</role>
+	</actor>
+
+  </movie>
+  <movie>
+    <title>Jackie Brown</title>
+    <year>1997</year>
+    <genre>crime</genre>
+    <summary>Jackie Brown, hûtesse de l'air, arrondit ses fins de mois en convoyant de l'argent liquide pour le compte d'un trafiquant d'armes, Ordell Robbie. Un jour, un agent federal et un policier de Los Angeles la cueillent û l'aûroport. Ils comptent sur elle pour faire tomber le trafiquant. Jackie ûchafaude alors un plan audacieux pour doubler tout le monde lors d'un prochain transfert qui porte sur la modeste somme de cinq cent mille dollars. Mais il lui faudra compter avec les complices d'Ordell, qui ont des mûthodes plutût expûditives.</summary>
+    <country>USA</country>
+    <version>1</version>
+	<director  id='37' >
+	    <last_name>Tarantino</last_name>
+	    <first_name>Quentin</first_name>
+	    <birth_date>1963</birth_date>
+	</director>
+	<actor  id='167' >
+	    <first_name>Robert</first_name>
+	    <last_name>De Niro</last_name>
+	    <birth_date>1943</birth_date>
+	    <role>Luis Gara</role>
+	</actor>
+	<actor  id='168' >
+	    <first_name>Pam</first_name>
+	    <last_name>Grier</last_name>
+	    <birth_date>1949</birth_date>
+	    <role>Jackie Brown</role>
+	</actor>
+	<actor  id='169' >
+	    <first_name>Bridget</first_name>
+	    <last_name>Fonda</last_name>
+	    <birth_date>1964</birth_date>
+	    <role>Melanie</role>
+	</actor>
+	<actor  id='170' >
+	    <first_name>Michael</first_name>
+	    <last_name>Keaton</last_name>
+	    <birth_date>1951</birth_date>
+	    <role>Ray Nicolette</role>
+	</actor>
+	<actor  id='212' >
+	    <first_name>Samuel</first_name>
+	    <last_name>Jackson</last_name>
+	    <birth_date>1948</birth_date>
+	    <role>Ordell Robbie</role>
+	</actor>
+
+  </movie>
+  <movie>
+    <title>Une journûe en enfer</title>
+    <year>1995</year>
+    <genre>Action</genre>
+    <summary>John McClane est cette fois-ci aux prises avec un maûtre chanteur, facûtieux et dangereux, qui dûpose des bombes dans New York.</summary>
+    <country>USA</country>
+    <version>1</version>
+	<director  id='168' >
+	    <last_name>Grier</last_name>
+	    <first_name>Pam</first_name>
+	    <birth_date>1949</birth_date>
+	</director>
+	<actor  id='27' >
+	    <first_name>Bruce</first_name>
+	    <last_name>Willis</last_name>
+	    <birth_date>1955</birth_date>
+	    <role>McClane</role>
+	</actor>
+	<actor  id='38' >
+	    <first_name>Samuel L.</first_name>
+	    <last_name>Jackson</last_name>
+	    <birth_date>1948</birth_date>
+	    <role>Zeus Carver</role>
+	</actor>
+	<actor  id='169' >
+	    <first_name>Bridget</first_name>
+	    <last_name>Fonda</last_name>
+	    <birth_date>1964</birth_date>
+	    <role>Simon Gruber</role>
+	</actor>
+
+  </movie>
+  <movie>
+    <title>Sixiûme sens</title>
+    <year>1999</year>
+    <genre>Fantastique</genre>
+    <summary>Cole Sear, garconnet de huit ans est hantû par un terrible secret. Son imaginaire est visitû par des esprits menacants. Trop jeune pour comprendre le pourquoi de ces apparitions et traumatisû par ces pouvoirs paranormaux, Cole s'enferme dans une peur maladive et ne veut reveler û personne la cause de son enfermement, û l'exception d'un psychologue pour enfants. La recherche d'une explication rationnelle guidera l'enfant et le thûrapeute vers une vûritû foudroyante et inexplicable.</summary>
+    <country>USA</country>
+	<director  id='170' >
+	    <last_name>Keaton</last_name>
+	    <first_name>Michael</first_name>
+	    <birth_date>1951</birth_date>
+	</director>
+	<actor  id='27' >
+	    <first_name>Bruce</first_name>
+	    <last_name>Willis</last_name>
+	    <birth_date>1955</birth_date>
+	    <role>Malcom Crowe</role>
+	</actor>
+	<actor  id='171' >
+	    <first_name>M. Night</first_name>
+	    <last_name>Shyamalan</last_name>
+	    <birth_date>1970</birth_date>
+	    <role>Cole Sear</role>
+	</actor>
+
+  </movie>
+  <movie>
+    <title>Lost in Translation</title>
+    <year>2003</year>
+    <genre>romance</genre>
+    <summary>Bob Harris, acteur sur le dûclin, se rend û Tokyo pour touner un spot publicitaire. Il a conscience qu'il se trompe - il devrait ûtre chez lui avec sa famille, jouer au thûûtre ou encore chercher un rûle dans un film -, mais il a besoin d'argent.
+	Du haut de son hûtel de luxe, il contemple la ville, mais ne voit rien. Il est ailleurs, dûtachû de tout, incapable de s'intûgrer û la rûalitû qui l'entoure, incapable ûgalement de dormir û cause du dûcalage horaire.
+	Dans ce mûme ûtablissement, Charlotte, une jeune Amûricaine fraûchement diplûmûe, accompagne son mari, photographe de mode. Ce dernier semble s'intûresser davantage û son travail qu'û sa femme. Se sentant dûlaissûe, Charlotte cherche un peu d'attention. Elle va en trouver auprûs de Bob...</summary>
+    <country>USA</country>
+    <version>1</version>
+	<director  id='172' >
+	    <last_name>Osment</last_name>
+	    <first_name>Haley Jœl</first_name>
+	    <birth_date>1988</birth_date>
+	</director>
+	<actor  id='173' >
+	    <first_name>Tony</first_name>
+	    <last_name>Collette</last_name>
+	    <birth_date>1972</birth_date>
+	    <role>Bob Harris</role>
+	</actor>
+	<actor  id='174' >
+	    <first_name>Eric</first_name>
+	    <last_name>Leighton</last_name>
+	    <birth_date>1962</birth_date>
+	    <role>Charlotte</role>
+	</actor>
+	<actor  id='175' >
+	    <first_name>Michael</first_name>
+	    <last_name>Mann</last_name>
+	    <birth_date>1943</birth_date>
+	    <role>John</role>
+	</actor>
+	<actor  id='176' >
+	    <first_name>Al</first_name>
+	    <last_name>Pacino</last_name>
+	    <birth_date>1940</birth_date>
+	    <role>Kelly</role>
+	</actor>
+	<actor  id='177' >
+	    <first_name>Russel</first_name>
+	    <last_name>Crowe</last_name>
+	    <birth_date>1964</birth_date>
+	    <role>Patron Nightclub</role>
+	</actor>
+
+  </movie>
+  <movie>
+    <title>Kill Bill</title>
+    <year>2003</year>
+    <genre>drama</genre>
+    <summary>Au cours d'une cûrûmonie de mariage en plein dûsert, un commando fait irruption dans la chapelle et tire sur les convives. Laissûe pour morte, la Mariûe enceinte retrouve ses esprits aprûs un coma de quatre ans.
+	Celle qui a auparavant exercû les fonctions de tueuse û gages au sein du Dûtachement International des Vipûres Assassines n'a alors plus qu'une seule idûe en tûte : venger la mort de ses proches en ûliminant tous les membres de l'organisation criminelle, dont leur chef Bill qu'elle se rûserve pour la fin.</summary>
+    <country>USA</country>
+    <version>1</version>
+	<director  id='37' >
+	    <last_name>Tarantino</last_name>
+	    <first_name>Quentin</first_name>
+	    <birth_date>1963</birth_date>
+	</director>
+	<actor  id='40' >
+	    <first_name>Uma</first_name>
+	    <last_name>Thurman</last_name>
+	    <birth_date>1970</birth_date>
+	    <role>La mariûe, alias "Black Mamba"</role>
+	</actor>
+	<actor  id='213' >
+	    <first_name>Lucy</first_name>
+	    <last_name>Liu</last_name>
+	    <birth_date>1968</birth_date>
+	    <role>O-Ren Ishii</role>
+	</actor>
+	<actor  id='214' >
+	    <first_name>David</first_name>
+	    <last_name>Carradine</last_name>
+	    <birth_date>1936</birth_date>
+	    <role>Bill</role>
+	</actor>
+	<actor  id='215' >
+	    <first_name>Michael</first_name>
+	    <last_name>Madsen</last_name>
+	    <birth_date>1958</birth_date>
+	    <role>Budd / Sidewinder</role>
+	</actor>
+	<actor  id='216' >
+	    <first_name>Daryl</first_name>
+	    <last_name>Hannah</last_name>
+	    <birth_date>1960</birth_date>
+	    <role>Elle Driver</role>
+	</actor>
+
+  </movie>
+  <movie>
+    <title>Stalingrad</title>
+    <year>2001</year>
+    <genre>drama</genre>
+    <country>USA</country>
+    <version>1</version>
+	<director  id='34' >
+	    <last_name>Annaud</last_name>
+	    <first_name>Jean-Jacques</first_name>
+	    <birth_date>1943</birth_date>
+	</director>
+	<actor  id='182' >
+	    <first_name>Marlon</first_name>
+	    <last_name>Brando</last_name>
+	    <birth_date>1924</birth_date>
+	    <role>Vassili Zaûtzev</role>
+	</actor>
+	<actor  id='183' >
+	    <first_name>Diane</first_name>
+	    <last_name>Keaton</last_name>
+	    <birth_date>1946</birth_date>
+	    <role>major Kûnig</role>
+	</actor>
+
+  </movie>
+  <movie>
+    <title>Million Dollar Baby</title>
+    <year>2005</year>
+    <genre>drama</genre>
+    <summary>Une histoire d'amour tragique et platonique entre une boxeuse et un vieil entraûneur de trente ans son aûnû.</summary>
+    <country>USA</country>
+    <version>1</version>
+	<director  id='20' >
+	    <last_name>Eastwood</last_name>
+	    <first_name>Clint</first_name>
+	    <birth_date>1930</birth_date>
+	</director>
+	<actor  id='20' >
+	    <first_name>Clint</first_name>
+	    <last_name>Eastwood</last_name>
+	    <birth_date>1930</birth_date>
+	    <role>Frankie Dunn</role>
+	</actor>
+	<actor  id='22' >
+	    <first_name>Morgan</first_name>
+	    <last_name>Freeman</last_name>
+	    <birth_date>1937</birth_date>
+	    <role>Eddie Scrap-Iron Dupris</role>
+	</actor>
+	<actor  id='224' >
+	    <first_name>Hillary</first_name>
+	    <last_name>Swank</last_name>
+	    <birth_date>1974</birth_date>
+	    <role>Maggie Fitzerald</role>
+	</actor>
+
+  </movie>
+  <movie>
+    <title>Pour quelques dollars de plus</title>
+    <year>1965</year>
+    <genre>Western</genre>
+    <summary>Le colonel Douglas Mortimer collabore avec un chasseur de primes surlast_namemû L'"Etranger". Tous les deux souhaitent capturer Indio, un tueur fou, qui sûme la terreur autour de lui. Ce dernier et ses hommes sont sur le point de piller la banque d'El Paso.</summary>
+    <country>IT</country>
+    <version>1</version>
+	<director  id='219' >
+	    <last_name>Leone</last_name>
+	    <first_name>Sergio</first_name>
+	    <birth_date>1929</birth_date>
+	</director>
+
+  </movie>
+  <movie>
+    <title>Marie Antoinette</title>
+    <year>2006</year>
+    <genre>drama</genre>
+    <summary>Based on Antonia Fraser's book about the ill-fated 
+		Archduchess of Austria and later Queen of France, 
+		'Marie Antoinette' tells the story of the most 
+		misunderstood and abused woman in history, from 
+		her birth in Imperial Austria to her later life in 
+		France. </summary>
+    <country>USA</country>
+    <version>1</version>
+	<director  id='1' >
+	    <last_name>Coppola</last_name>
+	    <first_name>Sofia</first_name>
+	    <birth_date>1971</birth_date>
+	</director>
+	<actor  id='2' >
+	    <first_name>Kirsten</first_name>
+	    <last_name>Dunst</last_name>
+	    <role>Marie Antoinette</role>
+	</actor>
+
+  </movie>
+  <movie>
+    <title>Soleil vert</title>
+    <year>1973</year>
+    <genre>Science-fiction</genre>
+    <summary>L'action du film se dûroule en l'an 2022 û New York qui est devenue une mûgapole de 44 millions d'habitants. Il rûgne en permanence une tempûrature ûlevûe, soit plus de 30 ûC. L'eau est rare. La faune et la flore ont quasiment disparu. La nourriture issue de l'agriculture ûgalement. La plupart des habitants n'ont pas les moyens d'acheter des aliments naturels, les prix ûtant exorbitants. Ils en sont rûduits û manger des produits de synthûse, fournis par la multinationale û Soylent û, des tablettes de forme carrûe, jaunes, rouges ou bleues. Un nouvel aliment vient d'ûtre lancû, le soylent green, beaucoup plus nutritif, cher et disponible uniquement le mardi : ce jour-lû, des ûmeutes de citoyens affamûs ne sont pas rares et sont sûvûrement rûprimûes.
+	Thorn, un policier û de premier ordre û, vit avec son ami Sol Roth, un vieux juif lettrû, dans un petit appartement dûlabrû et surpeuplû. Sol peste contre l'ûtat du monde et a la nostalgie du passû tandis que Thorn se contente des seules choses qu'il a connues, û savoir la nourriture synthûtique et la canicule perpûtuelle.
+	Dans le mûme temps, William Simonson, un des dirigeants de la sociûtû agroalimentaire Soylent, est exûcutû dans son appartement situû dans une tour sûcurisûe des beaux quartiers de Chelsea ; Thorn est chargû de l'enquûte et va dûcouvrir que cette affaire, rapidement ûtiquetûe comme ûtant un crime crapuleux, se rûvûle ûtre en fait un assassinat visant û empûcher Simonson de rûvûler un terrible secret. Thorn comprend que Tab Fielding, le garde du corps du dirigeant, est complice car il ûtait, comme par hasard, absent au moment du meurtre et que le systûme de sûcuritû ûtait en panne. Thorn ramûne chez lui divers objets dont des aliments frais, de la viande et du bourbon, qu'il a dûrobû chez la victime, et les partage avec Sol. Poursuivant son enquûte, Thorn revient dans l'appartement, noue une relation avec la û compagne û de Simonson, ayant le statut de simple û meuble û et dont le prochain locataire disposera.
+	Puis Thorn dûcouvre que Tab Fielding est propriûtaire d'un bel appartement et qu'il a les moyens d'acheter de la nourriture naturelle, telle que de la confiture aux fraises : les soupûons du policier se confirment donc et il refuse de clûturer l'enquûte. Thorn se rûvûlant trop curieux, Donovan, l'homme chargû de la sûcuritû et qui travaille pour Santini, le gouverneur, dûcide de le supprimer par l'intermûdiaire de son tueur û gage, Gilbert, l'exûcuteur de Simonson.
+	Profitant d'une ûmeute due û l'ûpuisement des stocks de soylent green, Gilbert tente de tuer Thorn en lui tirant dessus mais ûchoue par deux fois, tant la foule est dense. Thorn finit par maûtriser Gilbert et l'envoie bouler sous une û dûgageuse û (scoop), sorte de camion-benne tractopelle ramassant les ûmeutiers afin de canaliser l'ûmeute.
+	Pendant ce temps, Sol se rend û l'ûchange, bibliothûque oû se rûunissent des gens instruits, sorte de comitû de sage consultatif pouvant ûmettre un avis auprûs d'instances internationales. Sol leur montre les deux rapports d'activitû de la sociûtû Soylent que Thorn avait dûcouvert chez Simonson. Face aux conclusions du comitû, horrifiû et dûsemparû, Sol comprend pourquoi Simonson a ûtû assassinû : il dûcide alors d'aller au Foyer, endroit oû l'on se fait euthanasier. Thorn arrive trop tard pour l'en empûcher mais rûussit û assister aux derniûres minutes de son ami : sur un immense ûcran, Thorn voit dûfiler les images de ce qu'ûtait la Terre autrefois, des paysages magnifiques, la vie sauvage, la beautû de la nature. Avant de mourir, Sol lui demande de trouver la preuve que la sociûtû Soylent n'est pas ce qu'elle prûtend ûtre.
+	Thorn se glisse dans l'un des camions bennes emmenant les cadavres û l'extûrieur de la ville vers un crematorium et dûcouvre, en explorant les locaux de l'usine, que le soylent green est en rûalitû fabriquû û partir des cadavres euthanasiûs : cet aliment est, selon le discours officiel, censû ûtre fabriquû û partir de plancton. En rûalitû, mûme les ocûans sont devenus stûriles et l'anthropophagie est dûsormais intûgrûe au systûme alimentaire humain.
+	Pourchassû par les tueurs au service du gouverneur Santini, dont Tab Fielding, Thorn finit par ûtre sûvûrement blessû. Quand son supûrieur arrive û sa rescousse, Thorn se met û hurler que le û soylent green est fabriquû avec des gens qui servent de bûtails û. Il supplie son supûrieur de tout rûvûler.</summary>
+    <country>USA</country>
+	<director  id='7' >
+	    <last_name>Fleischer</last_name>
+	    <first_name>Richard </first_name>
+	    <birth_date>1973</birth_date>
+	</director>
+	<actor  id='8' >
+	    <first_name>Charlton </first_name>
+	    <last_name>Hestone</last_name>
+	    <birth_date>1923</birth_date>
+	    <role>sol</role>
+	</actor>
+
+  </movie>
+  <movie>
+    <title>Heat</title>
+    <year>1995</year>
+    <genre>crime</genre>
+    <summary>La bande de Neil McCauley û laquelle est venu se greffer Waingro, une nouvelle recrue, attaque un fourgon blindû pour s'emparer d'une somme importante en obligations. Cependant, ce dernier tue froidement l'un des convoyeurs et Chris Shiherlis se retrouve obligû de "terminer le travail". Neil tente d'ûliminer Waingro, mais celui-ci parvient û s'ûchapper. Parallûlement, le lieutenant Vincent Hanna mûne l'enquûte...</summary>
+    <country>USA</country>
+	<director  id='175' >
+	    <last_name>Mann</last_name>
+	    <first_name>Michael</first_name>
+	    <birth_date>1943</birth_date>
+	</director>
+	<actor  id='167' >
+	    <first_name>Robert</first_name>
+	    <last_name>De Niro</last_name>
+	    <birth_date>1943</birth_date>
+	</actor>
+
+  </movie>
+  <movie>
+    <title>Taxi driver</title>
+    <year>1976</year>
+    <genre>drama</genre>
+    <summary>Vûtûran de la Guerre du Vietnam, Travis Bickle est chauffeur de taxi dans la ville de New York. Ses rencontres nocturnes et la violence quotidienne dont il est tûmoin lui font peu û peu perdre la tûte. Il se charge bientût de dûlivrer une prostituûe mineure de ses souteneurs.</summary>
+    <country>USA</country>
+	<director  id='241' >
+	    <last_name>Scorcese</last_name>
+	    <first_name>Martin</first_name>
+	    <birth_date>1962</birth_date>
+	</director>
+	<actor  id='51' >
+	    <first_name>Jodie</first_name>
+	    <last_name>Foster</last_name>
+	    <role>1962</role>
+	</actor>
+	<actor  id='167' >
+	    <first_name>Robert</first_name>
+	    <last_name>De Niro</last_name>
+	    <birth_date>1943</birth_date>
+	    <role>Travis Bickle </role>
+	</actor>
+
+  </movie>
+  <movie>
+    <title>Les affranchis</title>
+    <year>1990</year>
+    <genre>crime</genre>
+    <summary>Depuis sa plus tendre enfance, Henry Hill, nû d'un pûre irlandais et d'une mûre sicilienne, veut devenir gangster et appartenir û la Mafia. Adolescent dans les annûes cinquante, il commence par travailler pour le compte de Paul Cicero et voue une grande admiration pour Jimmy Conway, qui a fait du dûtournement de camions sa grande spûcialitû. Lucide et ambitieux, il contribue au casse des entrepûts de l'aûroport d'Idlewild et ûpouse Karen, une jeune Juive qu'il trompe rûguliûrement. Mais son implication dans le trafic de drogue le fera plonger...</summary>
+    <country>USA</country>
+	<director  id='241' >
+	    <last_name>Scorcese</last_name>
+	    <first_name>Martin</first_name>
+	    <birth_date>1962</birth_date>
+	</director>
+	<actor  id='167' >
+	    <first_name>Robert</first_name>
+	    <last_name>De Niro</last_name>
+	    <birth_date>1943</birth_date>
+	    <role>James Conway</role>
+	</actor>
+	<actor  id='242' >
+	    <first_name>Ray</first_name>
+	    <last_name>Liotta</last_name>
+	    <birth_date>1954</birth_date>
+	    <role>Henry Hill</role>
+	</actor>
+	<actor  id='243' >
+	    <first_name>Jœ</first_name>
+	    <last_name>Pesci</last_name>
+	    <birth_date>1943</birth_date>
+	    <role>Tommy DeVito</role>
+	</actor>
+	<actor  id='244' >
+	    <first_name>Lorraine</first_name>
+	    <last_name>Bracco</last_name>
+	    <birth_date>1954</birth_date>
+	    <role>Karen Hill</role>
+	</actor>
+
+  </movie>
+  <movie>
+    <title>Casino</title>
+    <year>1995</year>
+    <genre>crime</genre>
+    <summary>En 1973, Sam Ace Rothstein est le grand manitou de la ville de toutes les folies, Las Vegas. Il achûte et ûpouse une virtuose de lûarnaque, Ginger Mc Kenna, qui sombre bien vite dans lûalcool et la drogue. Mais un autre ennui guette Sam, son ami dûenfance Nicky Santoro, qui entreprend de mettre la ville en coupe rûglûeû</summary>
+    <country>USA</country>
+	<director  id='241' >
+	    <last_name>Scorcese</last_name>
+	    <first_name>Martin</first_name>
+	    <birth_date>1962</birth_date>
+	</director>
+	<actor  id='167' >
+	    <first_name>Robert</first_name>
+	    <last_name>De Niro</last_name>
+	    <birth_date>1943</birth_date>
+	    <role>Sam 'Ace' Rothstein</role>
+	</actor>
+	<actor  id='243' >
+	    <first_name>Jœ</first_name>
+	    <last_name>Pesci</last_name>
+	    <birth_date>1943</birth_date>
+	    <role> 	Nicky Santoro </role>
+	</actor>
+	<actor  id='245' >
+	    <first_name>Sharon</first_name>
+	    <last_name>Stone</last_name>
+	    <birth_date>1958</birth_date>
+	    <role>Ginger McKenna</role>
+	</actor>
+
+  </movie>
+  <movie>
+    <title>Casino Royale</title>
+    <year>2006</year>
+    <genre>Action</genre>
+    <summary>Pour sa premiûre mission, James Bond affronte le tout-puissant banquier privû du terrorisme international, Le Chiffre. Pour achever de le ruiner et dûmanteler le plus grand rûseau criminel qui soit, Bond doit le battre lors d'une partie de poker û haut risque au Casino Royale. La trûs belle Vesper, attachûe au Trûsor, l'accompagne afin de veiller û ce que l'agent 007 prenne soin de l'argent du gouvernement britannique qui lui sert de mise, mais rien ne va se passer comme prûvu.
+	Alors que Bond et Vesper s'efforcent d'ûchapper aux tentatives d'assassinat du Chiffre et de ses hommes, d'autres sentiments surgissent entre eux, ce qui ne fera que les rendre plus vulnûrables... </summary>
+    <country>USA</country>
+	<director  id='246' >
+	    <last_name>Campbell</last_name>
+	    <first_name>Martin</first_name>
+	    <birth_date>1943</birth_date>
+	</director>
+	<actor  id='247' >
+	    <first_name>Daniel</first_name>
+	    <last_name>Craig</last_name>
+	    <birth_date>1968</birth_date>
+	    <role>James Bond</role>
+	</actor>
+	<actor  id='248' >
+	    <first_name>Eva</first_name>
+	    <last_name>Green</last_name>
+	    <birth_date>1980</birth_date>
+	    <role>Vesper Lynd</role>
+	</actor>
+
+  </movie>
+  <movie>
+    <title>Skyfall</title>
+    <year>1012</year>
+    <genre>Action</genre>
+    <summary>Lorsque la derniûre mission de Bond tourne mal, plusieurs agents infiltrûs se retrouvent exposûs dans le monde entier. Le MI6 est attaquû, et M est obligûe de relocaliser lûAgence. Ces ûvûnements ûbranlent son autoritû, et elle est remise en cause par Mallory, le nouveau prûsident de lûISC, le comitû chargû du renseignement et de la sûcuritû. Le MI6 est û prûsent sous le coup dûune double menace, intûrieure et extûrieure. Il ne reste û M quûun seul alliû de confiance vers qui se tourner : Bond. Plus que jamais, 007 va devoir agir dans lûombre. Avec lûaide dûEve, un agent de terrain, il se lance sur la piste du mystûrieux Silva, dont il doit identifier coûte que coûte lûobjectif secret et mortelû </summary>
+    <country>USA</country>
+	<director  id='17' >
+	    <last_name>Mendes</last_name>
+	    <first_name>Sam</first_name>
+	    <birth_date>1965</birth_date>
+	</director>
+	<actor  id='247' >
+	    <first_name>Daniel</first_name>
+	    <last_name>Craig</last_name>
+	    <birth_date>1968</birth_date>
+	    <role>James Bond</role>
+	</actor>
+	<actor  id='249' >
+	    <first_name>Judi</first_name>
+	    <last_name>Bench</last_name>
+	    <birth_date>1934</birth_date>
+	    <role>M</role>
+	</actor>
+	<actor  id='250' >
+	    <first_name>Javier</first_name>
+	    <last_name>Bardem</last_name>
+	    <birth_date>1969</birth_date>
+	    <role>Silva</role>
+	</actor>
+
+  </movie>
+  <movie>
+    <title>No country for old men</title>
+    <year>2007</year>
+    <genre>crime</genre>
+    <summary>A la frontiûre qui sûpare le Texas du Mexique, les trafiquants de drogue ont depuis longtemps remplacû les voleurs de bûtail. Lorsque Llewelyn Moss tombe sur une camionnette abandonnûe, cernûe de cadavres ensanglantûs, il ne sait rien de ce qui a conduit û ce drame. Et quand il prend les deux millions de dollars qu'il dûcouvre û l'intûrieur du vûhicule, il n'a pas la moindre idûe de ce que cela va provoquer...
+	Moss a dûclenchû une rûaction en chaûne d'une violence inouûe que le shûrif Bell, un homme vieillissant et sans illusions, ne parviendra pas û contenir... </summary>
+    <country>USA</country>
+	<director  id='251' >
+	    <last_name>Cœn</last_name>
+	    <first_name>Ethan</first_name>
+	    <birth_date>1957</birth_date>
+	</director>
+	<actor  id='250' >
+	    <first_name>Javier</first_name>
+	    <last_name>Bardem</last_name>
+	    <birth_date>1969</birth_date>
+	    <role>Anton Chigurh</role>
+	</actor>
+	<actor  id='252' >
+	    <first_name>Tommy Lee</first_name>
+	    <last_name>Jones</last_name>
+	    <birth_date>1946</birth_date>
+	    <role>Ed Tom Bell</role>
+	</actor>
+	<actor  id='253' >
+	    <first_name>Josh</first_name>
+	    <last_name>Brolin</last_name>
+	    <birth_date>1968</birth_date>
+	    <role>Llewelyn Moss</role>
+	</actor>
+
+  </movie>
+  <movie>
+    <title>Fargo</title>
+    <year>1996</year>
+    <genre>crime</genre>
+    <summary>En plein hiver, Jerry Lundegaard, un vendeur de voitures d'occasion û Minneapolis, a besoin d'un prût de Wade Gustafson, son riche beau-pûre. Endettû jusqu'au cou, il fait appel û Carl Showalter et Gaear Grimsrud, deux malfrats, pour qu'ils enlûvent son ûpouse Jean. Il pourra ainsi partager avec les ravisseurs la ranûon que Wade paiera pour la libûration de sa fille. Mais les choses ne vont pas se dûrouler comme prûvu. </summary>
+    <country>USA</country>
+	<director  id='251' >
+	    <last_name>Cœn</last_name>
+	    <first_name>Ethan</first_name>
+	    <birth_date>1957</birth_date>
+	</director>
+	<actor  id='217' >
+	    <first_name>Steve</first_name>
+	    <last_name>Buscemi</last_name>
+	    <birth_date>1957</birth_date>
+	    <role>Carl Showalter</role>
+	</actor>
+	<actor  id='254' >
+	    <first_name>William</first_name>
+	    <last_name>Macy</last_name>
+	    <birth_date>1950</birth_date>
+	    <role> Jerry Lundegaard </role>
+	</actor>
+
+  </movie>
+  <movie>
+    <title>Django unchained</title>
+    <year>2012</year>
+    <genre>Western</genre>
+    <summary>Dans le sud des ûtats-Unis, deux ans avant la guerre de Sûcession, le Dr King Schultz, un chasseur de primes allemand, fait lûacquisition de Django, un esclave qui peut lûaider û traquer les frûres Brittle, les meurtriers quûil recherche. Schultz promet û Django de lui rendre sa libertû lorsquûil aura capturû les Brittle û morts ou vifs.
+	Alors que les deux hommes pistent les dangereux criminels, Django nûoublie pas que son seul but est de retrouver Broomhilda, sa femme, dont il fut sûparû û cause du commerce des esclavesû
+	Lorsque Django et Schultz arrivent dans lûimmense plantation du puissant Calvin Candie, ils ûveillent les soupûons de Stephen, un esclave qui sert Candie et a toute sa confiance. Le moindre de leurs mouvements est dûsormais ûpiû par une dangereuse organisation de plus en plus procheû Si Django et Schultz veulent espûrer sûenfuir avec Broomhilda, ils vont devoir choisir entre lûindûpendance et la solidaritû, entre le sacrifice et la survieû</summary>
+    <country>USA</country>
+	<director  id='37' >
+	    <last_name>Tarantino</last_name>
+	    <first_name>Quentin</first_name>
+	    <birth_date>1963</birth_date>
+	</director>
+	<actor  id='110' >
+	    <first_name>Leonardo</first_name>
+	    <last_name>DiCaprio</last_name>
+	    <birth_date>1974</birth_date>
+	    <role>Calvin Candie</role>
+	</actor>
+	<actor  id='212' >
+	    <first_name>Samuel</first_name>
+	    <last_name>Jackson</last_name>
+	    <birth_date>1948</birth_date>
+	    <role>Stephen</role>
+	</actor>
+	<actor  id='255' >
+	    <first_name>Jamie</first_name>
+	    <last_name>Foxx</last_name>
+	    <birth_date>1967</birth_date>
+	    <role>Django</role>
+	</actor>
+	<actor  id='256' >
+	    <first_name>Christoph</first_name>
+	    <last_name>Waltz</last_name>
+	    <birth_date>1956</birth_date>
+	    <role>Dr. King Schultz</role>
+	</actor>
+
+  </movie>
+  <movie>
+    <title>Inglourious Basterds</title>
+    <year>209</year>
+    <genre>Guerre</genre>
+    <summary>Dans la France occupûe de 1940, Shosanna Dreyfus assiste û l'exûcution de sa famille tombûe entre les mains du colonel nazi Hans Landa. Shosanna s'ûchappe de justesse et s'enfuit û Paris oû elle se construit une nouvelle identitû en devenant exploitante d'une salle de cinûma.
+	Quelque part ailleurs en Europe, le lieutenant Aldo Raine forme un groupe de soldats juifs amûricains pour mener des actions punitives particuliûrement sanglantes contre les nazis. "Les bûtards", last_name sous lequel leurs ennemis vont apprendre û les connaûtre, se joignent û l'actrice allemande et agent secret Bridget von Hammersmark pour tenter d'ûliminer les hauts dignitaires du Troisiûme Reich. Leurs destins vont se jouer û l'entrûe du cinûma oû Shosanna est dûcidûe û mettre û exûcution une vengeance trûs personnelle... </summary>
+    <country>USA</country>
+	<director  id='37' >
+	    <last_name>Tarantino</last_name>
+	    <first_name>Quentin</first_name>
+	    <birth_date>1963</birth_date>
+	</director>
+
+  </movie>
+  <movie>
+    <title>Inglourious Basterds</title>
+    <year>2009</year>
+    <genre>Guerre</genre>
+    <summary>Dans la France occupûe de 1940, Shosanna Dreyfus assiste û l'exûcution de sa famille tombûe entre les mains du colonel nazi Hans Landa. Shosanna s'ûchappe de justesse et s'enfuit û Paris oû elle se construit une nouvelle identitû en devenant exploitante d'une salle de cinûma.
+	Quelque part ailleurs en Europe, le lieutenant Aldo Raine forme un groupe de soldats juifs amûricains pour mener des actions punitives particuliûrement sanglantes contre les nazis. "Les bûtards", last_name sous lequel leurs ennemis vont apprendre û les connaûtre, se joignent û l'actrice allemande et agent secret Bridget von Hammersmark pour tenter d'ûliminer les hauts dignitaires du Troisiûme Reich. Leurs destins vont se jouer û l'entrûe du cinûma oû Shosanna est dûcidûe û mettre û exûcution une vengeance trûs personnelle... </summary>
+    <country>USA</country>
+	<director  id='37' >
+	    <last_name>Tarantino</last_name>
+	    <first_name>Quentin</first_name>
+	    <birth_date>1963</birth_date>
+	</director>
+	<actor  id='32' >
+	    <first_name>Brad</first_name>
+	    <last_name>Pitt</last_name>
+	    <birth_date>1963</birth_date>
+	    <role>Lt. Aldo Raine</role>
+	</actor>
+	<actor  id='256' >
+	    <first_name>Christoph</first_name>
+	    <last_name>Waltz</last_name>
+	    <birth_date>1956</birth_date>
+	    <role>Col. Hans Landa</role>
+	</actor>
+	<actor  id='257' >
+	    <first_name>Mûlanie</first_name>
+	    <last_name>Laurent</last_name>
+	    <birth_date>1983</birth_date>
+	    <role>Shoshana</role>
+	</actor>
+	<actor  id='258' >
+	    <first_name>Michael</first_name>
+	    <last_name>Fassbender</last_name>
+	    <birth_date>1977</birth_date>
+	    <role>Lt. Archie Hicox</role>
+	</actor>
+
+  </movie>
+  <movie>
+    <title>Les quatre cents coups</title>
+    <year>1959</year>
+    <genre>drama</genre>
+    <summary>Antoine a une adolescence turbulente. Il ment û ses parents indiffûrents û son sort, vole, fugue. Son seul rûconfort, il fait les quatre cents coups avec son ami Renû. Un jour, la police s'en mûle. </summary>
+    <country>FR</country>
+	<director  id='259' >
+	    <last_name>Truffaut</last_name>
+	    <first_name>Franûois</first_name>
+	</director>
+	<actor  id='260' >
+	    <first_name>Jean-Pierre</first_name>
+	    <last_name>Lûaud</last_name>
+	    <birth_date>1944</birth_date>
+	    <role>Antoine Doinel</role>
+	</actor>
+
+  </movie>
+  <movie>
+    <title>Le dernier mûtro</title>
+    <year>1980</year>
+    <genre>drama</genre>
+    <summary>Paris, septembre 1942. Lucas Steiner, le directeur du thûûtre Montmartre a dû fuir parce quûil est juif. Sa femme Marion Steiner dirige le thûûtre et engage Bernard Granger, transfuge du Grand Guignol, pour jouer û ses cûtûs dans û la Disparue û, que met en scûne Jean-Louis Cottins. Jusquûau soir de la gûnûrale, la troupe subit les menaces du virulent critique de û Je suis partout û, Daxiat, dont lûambition est de diriger la Comûdie-Franûaise. Et si, par amour pour sa femme, Lucas Steiner avait fait semblant de fuir la France et ûtait restû cachû dans la cave de son thûûtre pendant toute la guerreû. </summary>
+    <country>FR</country>
+	<director  id='259' >
+	    <last_name>Truffaut</last_name>
+	    <first_name>Franûois</first_name>
+	</director>
+	<actor  id='130' >
+	    <first_name>Catherine</first_name>
+	    <last_name>Deneuve</last_name>
+	    <birth_date>1943</birth_date>
+	    <role>Marion Steiner</role>
+	</actor>
+	<actor  id='261' >
+	    <first_name>Gûrard</first_name>
+	    <last_name>Departieu</last_name>
+	    <role>Bernard Granger</role>
+	</actor>
+	<actor  id='262' >
+	    <first_name>Jean</first_name>
+	    <last_name>Poiret</last_name>
+	    <birth_date>1926</birth_date>
+	    <role>Jean-Loup Cottins</role>
+	</actor>
+
+  </movie>
+  <movie>
+    <title>Rio Grande</title>
+    <year>1950</year>
+    <genre>Western</genre>
+    <summary>Colonel de la cavalerie amûricaine, Kirby York acceuille dans son rûgiment son propre fils, le jeune Jeff, recalû û West Point. Sûparûe de York depuis un ûpisode tragique de la Guerre de Sûcession, Kathleen, la mûre de Jeff, intervient auprûs de son ûpoux pour qu'il n'accepte pas le jeune homme dans sa garnison. La guerre contre les Indiens fait rage, et la mûre craint pour la vie de son fils. Une terrible bataille contre les Apaches s'annonce... </summary>
+    <country>USA</country>
+	<director  id='263' >
+	    <last_name>Ford</last_name>
+	    <first_name>John</first_name>
+	    <birth_date>1894</birth_date>
+	</director>
+	<actor  id='264' >
+	    <first_name>John</first_name>
+	    <last_name>Wayne</last_name>
+	    <birth_date>1907</birth_date>
+	    <role>Lt. Col. Kirby Yorke</role>
+	</actor>
+	<actor  id='265' >
+	    <first_name>Maureen</first_name>
+	    <last_name>O'Hara</last_name>
+	    <birth_date>1920</birth_date>
+	    <role>Mrs. Kathleen Yorke</role>
+	</actor>
+
+  </movie>
+  <movie>
+    <title>Interstellar</title>
+    <year>2014</year>
+    <genre>Science-fiction</genre>
+    <summary>Le film raconte les aventures dûun groupe dûexplorateurs qui utilisent une faille rûcemment dûcouverte dans lûespace-temps afin de repousser les limites humaines et partir û la conquûte des distances astrolast_nameiques dans un voyage interstellaire.</summary>
+    <country>USA</country>
+	<director  id='266' >
+	    <last_name>Nolan</last_name>
+	    <first_name>Christopher</first_name>
+	    <birth_date>1970</birth_date>
+	</director>
+	<actor  id='267' >
+	    <first_name>Mathew</first_name>
+	    <last_name>McConaughey</last_name>
+	    <birth_date>1969</birth_date>
+	    <role>Cooper</role>
+	</actor>
+	<actor  id='268' >
+	    <first_name>Anne</first_name>
+	    <last_name>Hathaway</last_name>
+	    <birth_date>1982</birth_date>
+	    <role> 	 Brand </role>
+	</actor>
+	<actor  id='269' >
+	    <first_name>Michael</first_name>
+	    <last_name>Caine</last_name>
+	    <birth_date>1933</birth_date>
+	    <role>Professor Brand</role>
+	</actor>
+
+  </movie>
+</movies>
